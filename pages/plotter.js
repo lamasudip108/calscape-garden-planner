@@ -95,7 +95,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="polygon"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="109" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="109"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_erde.png?v=20220628-2ec948a"
@@ -113,7 +115,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="polygon"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="103" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="103"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_pflaster.png?v=20220628-2ec948a"
@@ -129,7 +133,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="polygon"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="107" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="107"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_holz.png?v=20220628-2ec948a"
@@ -148,10 +154,13 @@ function Plotter() {
                                                     data-canvas-type="polygon"
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="103" data-stroke-img="" data-stroke-width=""
-                                                    data-mode="garden"><img
-                                                src="https://my-garden.gardena.com/assets/elements/png/kachel_kopfstein.png?v=20220628-2ec948a"
-                                                className="icons"/><span
+                                                    data-canvas-layerdepth="103"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
+                                                    data-mode="garden">
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/kachel_kopfstein.png?v=20220628-2ec948a"
+                                                    className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Cobble&shy;stones</span>
                                             </button>
                                         </li>
@@ -163,7 +172,9 @@ function Plotter() {
                                                     data-item-priority="yellow" data-canvas-type="polygon"
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="280" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="280"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_mauer.png?v=20220628-2ec948a"
@@ -179,10 +190,13 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="polygon"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="105" data-stroke-img="" data-stroke-width=""
-                                                    data-mode="garden"><img
-                                                src="https://my-garden.gardena.com/assets/elements/png/kachel_kies.png?v=20220628-2ec948a"
-                                                className="icons"/><span
+                                                    data-canvas-layerdepth="105"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
+                                                    data-mode="garden">
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/kachel_kies.png?v=20220628-2ec948a"
+                                                    className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Gravel</span></button>
                                         </li>
                                         <li data-bs-placement="right" data-bs-html="true" data-bs-original-title="Water"
@@ -193,10 +207,13 @@ function Plotter() {
                                                     data-item-priority="yellow" data-canvas-type="polygon"
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
-                                                    data-mode="garden"><img
-                                                src="https://my-garden.gardena.com/assets/elements/png/kachel_wasser.png?v=20220628-2ec948a"
-                                                className="icons"/><span
+                                                    data-canvas-layerdepth="122"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
+                                                    data-mode="garden">
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/kachel_wasser.png?v=20220628-2ec948a"
+                                                    className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Water</span></button>
                                         </li>
                                     </ul>
@@ -242,11 +259,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="490"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Grey-roof house</span>
                                                         </button>
                                                     </li>
@@ -262,11 +281,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="490"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/haus_gruen.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/haus_gruen.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Green-roof house</span>
                                                         </button>
                                                     </li>
@@ -282,11 +303,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="490"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/haus_flachdach.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/haus_flachdach.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Flat-roof house</span>
                                                         </button>
                                                     </li>
@@ -302,11 +325,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="490"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/haus_rot.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/haus_rot.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Red-roof house</span>
                                                         </button>
                                                     </li>
@@ -321,11 +346,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="470"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/doppelgarage.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/doppelgarage.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">House</span>
                                                         </button>
                                                     </li>
@@ -340,11 +367,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="470"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/carport.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/carport.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Carport</span>
                                                         </button>
                                                     </li>
@@ -359,11 +388,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/erker_halbrund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/erker_halbrund.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bay</span>
                                                         </button>
                                                     </li>
@@ -378,11 +409,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/erker_trapezoid.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/erker_trapezoid.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bay</span>
                                                         </button>
                                                     </li>
@@ -397,12 +430,15 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/erker_eckig.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
-                                                            className="text-turquoise d-block mx-auto small">Bay</span>
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/erker_eckig.png?v=20220628-2ec948a"
+                                                                className="icons"/>
+                                                            <span
+                                                                className="text-turquoise d-block mx-auto small">Bay</span>
                                                         </button>
                                                     </li>
                                                     <li data-bs-placement="top" data-bs-html="true"
@@ -417,12 +453,15 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="190"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_rund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
-                                                            className="text-turquoise d-block mx-auto small">Stairs</span>
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_rund.png?v=20220628-2ec948a"
+                                                                className="icons"/>
+                                                            <span
+                                                                className="text-turquoise d-block mx-auto small">Stairs</span>
                                                         </button>
                                                     </li>
                                                     <li data-bs-placement="top" data-bs-html="true"
@@ -437,11 +476,15 @@ function Plotter() {
                                                             data-item-priority="red" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
-                                                            data-stroke-img="" data-stroke-width="" data-fixedscaling=""
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_1.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
-                                                            className="text-turquoise d-block mx-auto small">Stairs</span>
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
+                                                            data-fixedscaling=""
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_1.png?v=20220628-2ec948a"
+                                                                className="icons"/>
+                                                            <span
+                                                                className="text-turquoise d-block mx-auto small">Stairs</span>
                                                         </button>
                                                     </li>
                                                     <li data-bs-placement="top" data-bs-html="true"
@@ -456,10 +499,13 @@ function Plotter() {
                                                             data-item-priority="red" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
-                                                            data-stroke-img="" data-stroke-width="" data-fixedscaling=""
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_2.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
+                                                            data-fixedscaling=""
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_2.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Stairs</span>
                                                         </button>
                                                     </li>
@@ -475,10 +521,13 @@ function Plotter() {
                                                             data-item-priority="red" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
-                                                            data-stroke-img="" data-stroke-width="" data-fixedscaling=""
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_3.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
+                                                            data-fixedscaling=""
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_3.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Stairs</span>
                                                         </button>
                                                     </li>
@@ -494,11 +543,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="190"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_trapez.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_trapez.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Stairs</span>
                                                         </button>
                                                     </li>
@@ -513,11 +564,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="480"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/aussenbalkon.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/aussenbalkon.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Balcony</span>
                                                         </button>
                                                     </li>
@@ -532,11 +585,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/vordach_grau.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/vordach_grau.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Canopy</span>
                                                         </button>
                                                     </li>
@@ -551,11 +606,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/vordach_rot.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/vordach_rot.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Canopy</span>
                                                         </button>
                                                     </li>
@@ -570,11 +627,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="485"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/vordach_gruen.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/vordach_gruen.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Canopy</span>
                                                         </button>
                                                     </li>
@@ -605,11 +664,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="rect"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="130"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/beet_eckig.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/beet_eckig.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bed, rect.</span>
                                                         </button>
                                                     </li>
@@ -624,11 +685,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="circle"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="130"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/beet_rund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/beet_rund.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bed, round</span>
                                                         </button>
                                                     </li>
@@ -644,11 +707,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="rect"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="160"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_eckig.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_eckig.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Wood area, rect.</span>
                                                         </button>
                                                     </li>
@@ -664,11 +729,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="circle"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="160"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_rund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_rund.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Wood area, round</span>
                                                         </button>
                                                     </li>
@@ -684,11 +751,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="rect"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="145"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_eckig.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_eckig.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Rect. gravel area</span>
                                                         </button>
                                                     </li>
@@ -704,11 +773,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="circle"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="145"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_rund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_rund.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round gravel area</span>
                                                         </button>
                                                     </li>
@@ -724,11 +795,13 @@ function Plotter() {
                                                             data-item-priority="red" data-canvas-type="image"
                                                             data-canvas-pattern="true" data-canvas-geometry="rect"
                                                             data-canvas-layer="structure" data-canvas-layerdepth="135"
-                                                            data-stroke-img="" data-stroke-width="7"
+                                                            data-stroke-img=""
+                                                            data-stroke-width="7"
                                                             data-fixedscaling=""
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_eckig.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_eckig.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Paved area, rect.</span>
                                                         </button>
                                                     </li>
@@ -744,11 +817,13 @@ function Plotter() {
                                                             data-item-priority="red" data-canvas-type="image"
                                                             data-canvas-pattern="true" data-canvas-geometry="circle"
                                                             data-canvas-layer="structure" data-canvas-layerdepth="135"
-                                                            data-stroke-img="" data-stroke-width="7"
+                                                            data-stroke-img=""
+                                                            data-stroke-width="7"
                                                             data-fixedscaling="true"
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_rund.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_rund.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Paved area, round</span>
                                                         </button>
                                                     </li>
@@ -764,11 +839,13 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="rect"
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="135"
-                                                                data-stroke-img="" data-stroke-width="7"
+                                                                data-stroke-img=""
+                                                                data-stroke-width="7"
                                                                 data-fixedscaling=""
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/pfad_kopfstein.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/pfad_kopfstein.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Cobbled path</span>
                                                         </button>
                                                     </li>
@@ -799,11 +876,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="280"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/steinmauer_gerade.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/steinmauer_gerade.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Stone wall</span>
                                                         </button>
                                                     </li>
@@ -818,11 +897,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="280"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/rankgitter.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/rankgitter.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Trellis</span>
                                                         </button>
                                                     </li>
@@ -838,11 +919,13 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="280"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/sichtschutz_braun.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                            data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/sichtschutz_braun.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Brown partition wall</span>
                                                         </button>
                                                     </li>
@@ -858,7 +941,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="280"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -878,11 +962,13 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="282"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden"><img
-                                                            src="https://my-garden.gardena.com/assets/elements/png/zaun_braun.png?v=20220628-2ec948a"
-                                                            className="icons"/><span
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/zaun_braun.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Brown fence</span>
                                                         </button>
                                                     </li>
@@ -897,7 +983,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="282"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -935,7 +1022,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="460"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -955,7 +1043,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="460"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -975,7 +1064,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="460"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -995,7 +1085,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="201"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -1047,7 +1138,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1066,7 +1158,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1085,7 +1178,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1104,7 +1198,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1123,7 +1218,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1142,7 +1238,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1161,7 +1258,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1180,7 +1278,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1199,7 +1298,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="590"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1218,7 +1318,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1237,7 +1338,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1256,7 +1358,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="570"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1275,7 +1378,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1294,7 +1398,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="180"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1330,7 +1435,8 @@ function Plotter() {
                                                                 data-canvas-pattern="true" data-canvas-geometry="rect"
                                                                 data-canvas-layer="landscape"
                                                                 data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -1350,7 +1456,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1369,7 +1476,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1388,7 +1496,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1408,7 +1517,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1428,7 +1538,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1447,7 +1558,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1467,7 +1579,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1487,7 +1600,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1506,7 +1620,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1526,7 +1641,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1561,7 +1677,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="228"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1580,7 +1697,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="228"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/rosenstrauch.png?v=20220628-2ec948a"
@@ -1598,7 +1716,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1617,7 +1736,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1636,7 +1756,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1655,7 +1776,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1674,7 +1796,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1693,7 +1816,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1712,7 +1836,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="555"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1747,7 +1872,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1766,7 +1892,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1785,7 +1912,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1804,7 +1932,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1823,7 +1952,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1842,7 +1972,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1861,7 +1992,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1880,7 +2012,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1899,7 +2032,8 @@ function Plotter() {
                                                                 data-item-priority="yellow" data-canvas-type="image"
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -1936,7 +2070,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -1957,7 +2092,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -1978,7 +2114,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -1999,7 +2136,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2051,7 +2189,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="305"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2071,7 +2210,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="305"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2091,7 +2231,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="305"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2112,7 +2253,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="370"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2132,7 +2274,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="350"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2152,7 +2295,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="310"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2172,7 +2316,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="310"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2192,7 +2337,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="170"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2213,7 +2359,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="370"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2233,7 +2380,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="308"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2254,7 +2402,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="320"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2274,7 +2423,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="320"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2295,7 +2445,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="330"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2316,7 +2467,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="330"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2337,7 +2489,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="200"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2357,7 +2510,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="340"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling=""
                                                                 data-mode="garden">
                                                             <img
@@ -2393,7 +2547,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="306"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2413,7 +2568,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="306"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2434,7 +2590,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="306"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2454,7 +2611,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="306"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2474,7 +2632,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="306"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2509,7 +2668,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2529,7 +2689,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2550,7 +2711,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2571,7 +2733,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2592,7 +2755,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="360"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2613,7 +2777,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="360"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2634,7 +2799,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2655,7 +2821,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2676,7 +2843,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2697,7 +2865,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2718,7 +2887,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2738,7 +2908,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2759,7 +2930,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2779,7 +2951,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="360"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2800,7 +2973,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="460"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2821,7 +2995,8 @@ function Plotter() {
                                                             data-item-priority="yellow" data-canvas-type="image"
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="460"
-                                                            data-stroke-img="" data-stroke-width=""
+                                                            data-stroke-img=""
+                                                            data-stroke-width=""
                                                             data-fixedscaling="true"
                                                             data-mode="garden">
                                                             <img
@@ -2858,7 +3033,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="201"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2878,7 +3054,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="270"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2898,7 +3075,8 @@ function Plotter() {
                                                                 data-canvas-pattern="" data-canvas-geometry=""
                                                                 data-canvas-layer="structure"
                                                                 data-canvas-layerdepth="270"
-                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-stroke-img=""
+                                                                data-stroke-width=""
                                                                 data-fixedscaling="true"
                                                                 data-mode="garden">
                                                             <img
@@ -2936,7 +3114,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="image"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
-                                                    data-canvas-layerdepth="120" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="120"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/brunnen.png?v=20220628-2ec948a"
@@ -2955,7 +3135,9 @@ function Plotter() {
                                                     data-canvas-type="image" data-canvas-pattern=""
                                                     data-canvas-geometry=""
                                                     data-canvas-layer="structure" data-canvas-layerdepth="122"
-                                                    data-stroke-img="" data-stroke-width="" data-fixedscaling="true"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
+                                                    data-fixedscaling="true"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/pool_eckig.png?v=20220628-2ec948a"
@@ -2974,7 +3156,9 @@ function Plotter() {
                                                     data-canvas-type="image" data-canvas-pattern=""
                                                     data-canvas-geometry=""
                                                     data-canvas-layer="structure" data-canvas-layerdepth="122"
-                                                    data-stroke-img="" data-stroke-width="" data-fixedscaling="true"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
+                                                    data-fixedscaling="true"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/pool_rund.png?v=20220628-2ec948a"
@@ -2992,7 +3176,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="image"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
-                                                    data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="122"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-fixedscaling="true"
                                                     data-mode="garden">
                                                 <img
@@ -3011,7 +3197,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="image"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
-                                                    data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="122"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-fixedscaling="true"
                                                     data-mode="garden">
                                                 <img
@@ -3030,7 +3218,9 @@ function Plotter() {
                                                     data-item-priority="red" data-canvas-type="image"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
-                                                    data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="122"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-fixedscaling="true"
                                                     data-mode="garden">
                                                 <img
