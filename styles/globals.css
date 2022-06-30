@@ -1,0 +1,841 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.left {
+    width: 15%;
+}
+
+.right {
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+img,
+svg {
+    vertical-align: middle
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+.img-thumbnail {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto
+}
+
+.figure {
+    display: inline-block
+}
+
+.figure-img {
+    margin-bottom: .5rem;
+    line-height: 1
+}
+
+.figure-caption {
+    font-size: .875em;
+    color: #6c757d
+}
+
+img.icons {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 40px;
+    max-width: 40px;
+    margin-bottom: 4px
+}
+
+.subitems img.icons {
+    max-height: 48px;
+    max-width: 48px
+}
+
+.d-block {
+    display: block !important;
+}
+
+#toolbar-gardenplanner {
+    position: absolute;
+    top: 50px;
+    width: auto;
+    z-index: 1030;
+    left: 0;
+    transition: left .25s ease-in-out 0s
+}
+
+#toolbar-gardenplanner.hide-menu {
+    left: -50%
+}
+
+#toolbar-gardenplanner .disabled {
+    opacity: .5
+}
+
+#toolbar-gardenplanner .object-menu {
+    min-width: 160px;
+    position: absolute;
+    left: 42px;
+    top: 0;
+    transition: height .25s ease-in-out 0s
+}
+
+#toolbar-gardenplanner ul {
+    background-color: #fff;
+    list-style-type: none;
+    padding: 20px 8px 8px 8px
+}
+
+#toolbar-gardenplanner ul .subgroup-wrapper {
+    display: none;
+    position: absolute;
+    left: 100%;
+    left: calc(100% + 8px);
+    top: -20px;
+    background: 0
+}
+
+#toolbar-gardenplanner ul .subgroup-wrapper .subgroup-wrapper {
+    top: -10px;
+    left: 100%;
+    left: calc(100% + 10px)
+}
+
+#toolbar-gardenplanner > ul {
+    padding-top: 20px
+}
+
+#toolbar-gardenplanner li {
+    cursor: default;
+    position: relative;
+    display: block;
+    margin: 0 0 22px;
+    text-align: center;
+    min-height: 80px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#toolbar-gardenplanner li:hover:not(.disabled) > .gui-toolbar-group .text-turquoise {
+    color: #f15922
+}
+
+#toolbar-gardenplanner li .subgroup-wrapper li:nth-child(1) .subgroup-wrapper {
+    top: -10px
+}
+
+#toolbar-gardenplanner li .subgroup-wrapper.visible {
+    display: block
+}
+
+#toolbar-gardenplanner li.only-objects .subgroup {
+    width: calc(100vW - 274px);
+    max-width: 370px;
+    text-align: left;
+    padding-bottom: 0
+}
+
+#toolbar-gardenplanner li.only-objects .subgroup li {
+    display: inline-block
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu {
+    margin-bottom: 0
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu.hidden-state,
+#toolbar-gardenplanner .toolbar-gardenplanner-menu .object-menu.hidden-state {
+    opacity: 0;
+    position: absolute;
+    left: -160px;
+    pointer-events: none;
+    display: none
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu.visible-state,
+#toolbar-gardenplanner .toolbar-gardenplanner-menu .object-menu.visible-state {
+    display: block !important;
+    opacity: 1
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu .small {
+    font-size: 10px;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu .gui-toolbar-group {
+    display: inline-block
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle {
+    padding: 1px 5px;
+    font-size: .75rem;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #f15922;
+    border-color: #eb490f;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    padding-top: 2px
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle + .navbar-button-arrow {
+    float: right;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 10px solid #f15922
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.focus {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #732407
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:focus + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.focus + .navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #b1370b
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover + .navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #b1370b
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active + .navbar-button-arrow,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle + .navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active:hover,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active:focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active.focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active:hover,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active:focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active.focus,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle:focus,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle.focus {
+    color: #fff;
+    background-color: #b1370b;
+    border-color: #732407
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active:hover + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active:focus + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active.focus + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active:hover + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active:focus + .navbar-button-arrow,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active.focus + .navbar-button-arrow,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover + .navbar-button-arrow,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle:focus + .navbar-button-arrow,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle.focus + .navbar-button-arrow {
+    border-left: 10px solid #b1370b
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.active,
+.open > .dropdown-toggle #toolbar-gardenplanner .toolbar-gardenplanner-toggle {
+    background-image: none
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.disabled:hover,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.disabled:focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.disabled.focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle[disabled]:hover,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle[disabled]:focus,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle[disabled].focus,
+fieldset[disabled] #toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover,
+fieldset[disabled] #toolbar-gardenplanner .toolbar-gardenplanner-toggle:focus,
+fieldset[disabled] #toolbar-gardenplanner .toolbar-gardenplanner-toggle.focus {
+    background-color: #f15922;
+    border-color: #eb490f
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle .badge {
+    color: #f15922;
+    background-color: #fff
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.toggle-submenu {
+    background-color: #fff
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.toggle-submenu.target-hidden:not(.activated),
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.toggle-submenu.target-hidden:not(.activated):hover {
+    background-color: #a7a9ac
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.target-visible .inactive,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.target-hidden .inactive {
+    display: inline-block
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.target-visible .active,
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle.target-hidden .active {
+    display: none
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover .inactive {
+    display: none
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:hover .active {
+    display: inline-block
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle .toolbar-main-icon {
+    pointer-events: none;
+    max-width: 100%;
+    height: auto
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle:active:focus {
+    background-color: #fff;
+    border-bottom-color: #f15922
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-menu {
+    width: 100%
+}
+
+#toolbar-gardenplanner .toolbar-gardenplanner-toggle,
+#toolbar-gardenplanner .toolbar-gardenplanner-menu {
+    border-width: 0;
+    border-radius: 0
+}
+
+#toolbar-gardenplanner .subgroup {
+    background-color: #fff;
+    box-shadow: 8px 2px 8px 2px rgba(0, 0, 0, 0.13);
+    padding: 10px 10px 14px 10px
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    transition: box-shadow .25s 0s
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup:last-child-of-type {
+    padding-bottom: 10px
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup .subgroup {
+    width: calc(100vW - 274px);
+    max-width: 370px;
+    text-align: left
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup .subgroup.level-2 {
+    max-width: 390px
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup .subgroup li {
+    display: inline-block;
+    margin-left: 10px
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup .subgroup li.item-linebreak {
+    margin-left: 0
+}
+
+#toolbar-gardenplanner .subgroup li.has-subgroup:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5)
+}
+
+#toolbar-gardenplanner .subgroup li.lastRow {
+    margin-bottom: 10px
+}
+
+#toolbar-gardenplanner .item-buttons {
+    background-color: #fff;
+    height: 94px;
+    width: 80px;
+    padding: 0 10px;
+    position: relative;
+    overflow: hidden;
+    border: 0;
+    transition: box-shadow .25s 0s
+}
+
+.lang-es #toolbar-gardenplanner .item-buttons,
+.lang-pt #toolbar-gardenplanner .item-buttons {
+    height: 84px
+}
+
+#toolbar-gardenplanner .item-buttons:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 10
+}
+
+#toolbar-gardenplanner .item-buttons > span.small {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .6px;
+    text-align: center;
+    color: #464645;
+    white-space: normal;
+    text-transform: none;
+    width: 64px
+}
+
+#toolbar-gardenplanner .item-buttons img {
+    height: 40px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#toolbar-gardenplanner .item-buttons > span.small {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#toolbar-gardenplanner .gardenplanner-element.menu-headline,
+#toolbar-gardenplanner .sprinklerplanner-element.menu-headline,
+#toolbar-gardenplanner .waterconnector-element.menu-headline,
+#toolbar-gardenplanner .edge-irrigation-element.menu-headline {
+    min-height: 0;
+    margin: 0 0 8px
+}
+
+#toolbar-gardenplanner .gardenplanner-element.menu-headline .menu-headline-text,
+#toolbar-gardenplanner .sprinklerplanner-element.menu-headline .menu-headline-text,
+#toolbar-gardenplanner .waterconnector-element.menu-headline .menu-headline-text,
+#toolbar-gardenplanner .edge-irrigation-element.menu-headline .menu-headline-text {
+    font-size: 14px;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2;
+    border-bottom: 1px solid #a7a9ac
+}
+
+.sprinklermode #toolbar-gardenplanner .sprinklerplanner-element {
+    display: block
+}
+
+#toolbar-gardenplanner #object-menu-garden ul.level-2 li button {
+    cursor: move
+}
+
+#toolbar-gardenplanner #object-menu-garden li.level-1:last-child li button {
+    cursor: move
+}
+
+@media only screen and (max-width: 808px) {
+    #toolbar-gardenplanner {
+        transition: top .25s ease-in-out 0s
+    }
+
+    #toolbar-gardenplanner.hidden-mobile {
+        top: calc(100% - 25px)
+    }
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu {
+    position: static
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu::after {
+    right: -10px;
+    width: 40px;
+    left: auto
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper {
+    left: 100%;
+    left: calc(100% + 2px);
+    top: 25px;
+    position: absolute
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1 {
+    height: calc(100vH - 200px);
+    overflow: initial;
+    left: 100%;
+    top: 0;
+    min-width: 130px
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1 li.has-subgroup {
+    position: static;
+    width: 104px
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 {
+    top: 0;
+    left: 100%
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup.level-1 {
+    overflow: initial;
+    height: 100%;
+    height: calc(100vh - 200px);
+    position: fixed;
+    position: absolute
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup.level-2 {
+    position: fixed;
+    height: 100%
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper.hide-hover {
+    display: none
+}
+
+#toolbar-gardenplanner li.has-subgroup.scrollable-menu div.subgroup-wrapper div.tooltip {
+    display: none !important
+}
+
+#toolbar-gardenplanner li.disabled {
+    opacity: .5
+}
+
+#toolbar-gardenplanner li.disabled > .gui-toolbar-group .text-turquoise {
+    color: inherit
+}
+
+#toolbar-gardenplanner li.disabled:hover > .gui-toolbar-group .text-turquoise {
+    color: inherit
+}
+
+#toolbar-gardenplanner li.disabled .subgroup-wrapper,
+#toolbar-gardenplanner li.disabled .subgroup {
+    display: none
+}
+
+@media only screen and (max-height: 820px) {
+
+    #toolbar-gardenplanner #object-menu-garden,
+    #toolbar-gardenplanner #object-menu-sprinkler,
+    #toolbar-gardenplanner #object-menu-waterconnector,
+    #toolbar-gardenplanner #object-menu-edge-irrigation {
+        max-height: calc(100vH - 200px);
+        overflow-y: auto
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper {
+        height: calc(100vH - 200px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup {
+        overflow: auto;
+        height: 100%;
+        height: calc(100vh - 200px)
+    }
+}
+
+@media only screen and (max-height: 820px) and (max-width: 808px) {
+
+    #toolbar-gardenplanner #object-menu-garden,
+    #toolbar-gardenplanner #object-menu-sprinkler,
+    #toolbar-gardenplanner #object-menu-waterconnector,
+    #toolbar-gardenplanner #object-menu-edge-irrigation {
+        height: calc(100vH - 104px);
+        max-height: none;
+        overflow-y: auto
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-1 {
+        left: calc(100% + 2px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 {
+        left: calc(100% + 2px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 .subgroup,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 .subgroup,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 .subgroup,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper.level-2 .subgroup {
+        top: 50px
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup {
+        height: calc(100vH - 104px)
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    #toolbar-gardenplanner .item-buttons img[src*=".svg"].icons {
+        height: auto !important;
+        width: auto !important;
+        max-height: 40px;
+        max-width: 40px
+    }
+
+    #toolbar-gardenplanner .item-buttons img[src*=".png"].icons {
+        height: auto !important;
+        width: auto !important;
+        max-height: 40px;
+        max-width: 40px
+    }
+}
+
+#toolbar-gardenplanner .minimized {
+    overflow: hidden
+}
+
+#toolbar-gardenplanner .menu-backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: background-color .25s ease-out
+}
+
+#toolbar-gardenplanner .expand-menu {
+    color: #585857;
+    font-size: 2.5rem;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+body.mobile-os-android #toolbar-gardenplanner ul.object-menu {
+    padding-bottom: 75px
+}
+
+.mobile-os-android #toolbar-gardenplanner .subgroup.level-1,
+.mobile-os-android #toolbar-gardenplanner .subgroup.level-2 {
+    padding-bottom: 65px
+}
+
+@media only screen and (max-height: 820px) {
+
+    #toolbar-gardenplanner #object-menu-garden,
+    #toolbar-gardenplanner #object-menu-sprinkler,
+    #toolbar-gardenplanner #object-menu-edge-irrigation {
+        max-height: calc(100vH - 200px);
+        overflow-y: auto;
+        position: absolute;
+        left: 0
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper {
+        height: calc(100vH - 200px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup {
+        overflow: auto;
+        height: 100%;
+        height: calc(100vh - 200px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden-button,
+    #toolbar-gardenplanner #object-menu-sprinkler-button,
+    #toolbar-gardenplanner #object-menu-waterconnector-button,
+    #toolbar-gardenplanner #object-menu-edge-irrigation-button {
+        position: absolute;
+        left: 0
+    }
+
+    #toolbar-gardenplanner #object-menu-garden-button {
+        top: 0
+    }
+
+    #toolbar-gardenplanner #object-menu-sprinkler-button {
+        top: 42px
+    }
+
+    #toolbar-gardenplanner #object-menu-waterconnector-button {
+        top: 84px
+    }
+
+    #toolbar-gardenplanner #object-menu-edge-irrigation-button {
+        top: 126px
+    }
+
+    #toolbar-gardenplanner #object-menu-garden,
+    #toolbar-gardenplanner #object-menu-sprinkler,
+    #toolbar-gardenplanner #object-menu-waterconnector,
+    #toolbar-gardenplanner #object-menu-edge-irrigation {
+        overflow-y: scroll;
+        position: revert;
+        height: calc(100vH - 200px);
+        width: 118px;
+        margin-left: 42px
+    }
+
+    #toolbar-gardenplanner #object-menu-garden .subgroup.level-1,
+    #toolbar-gardenplanner #object-menu-sprinkler .subgroup.level-1,
+    #toolbar-gardenplanner #object-menu-waterconnector .subgroup.level-1,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .subgroup.level-1 {
+        top: 0
+    }
+
+    #toolbar-gardenplanner #object-menu-garden .subgroup.level-2,
+    #toolbar-gardenplanner #object-menu-sprinkler .subgroup.level-2,
+    #toolbar-gardenplanner #object-menu-waterconnector .subgroup.level-2,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .subgroup.level-2 {
+        top: 125px
+    }
+
+    #toolbar-gardenplanner #object-menu-garden .visible-state,
+    #toolbar-gardenplanner #object-menu-garden .visible,
+    #toolbar-gardenplanner #object-menu-sprinkler .visible-state,
+    #toolbar-gardenplanner #object-menu-sprinkler .visible,
+    #toolbar-gardenplanner #object-menu-waterconnector .visible-state,
+    #toolbar-gardenplanner #object-menu-waterconnector .visible,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .visible-state,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .visible {
+        display: block !important
+    }
+
+    #toolbar-gardenplanner #object-menu-garden .hidden-state,
+    #toolbar-gardenplanner #object-menu-garden .hidden,
+    #toolbar-gardenplanner #object-menu-sprinkler .hidden-state,
+    #toolbar-gardenplanner #object-menu-sprinkler .hidden,
+    #toolbar-gardenplanner #object-menu-waterconnector .hidden-state,
+    #toolbar-gardenplanner #object-menu-waterconnector .hidden,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .hidden-state,
+    #toolbar-gardenplanner #object-menu-edge-irrigation .hidden {
+        display: none !important
+    }
+
+    .mobile-ipad #toolbar-gardenplanner #object-menu-garden,
+    .mobile-ipad #toolbar-gardenplanner #object-menu-sprinkler {
+        max-height: calc(100vH - 240px);
+        overflow-y: auto
+    }
+
+    .mobile-ipad #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    .mobile-ipad #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper {
+        height: calc(100vH - 240px)
+    }
+
+    .mobile-ipad #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    .mobile-ipad #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup {
+        height: calc(100vh - 240px)
+    }
+}
+
+@media only screen and (max-height: 620px) {
+
+    #toolbar-gardenplanner #object-menu-garden,
+    #toolbar-gardenplanner #object-menu-sprinkler,
+    #toolbar-gardenplanner #object-menu-waterconnector,
+    #toolbar-gardenplanner #object-menu-edge-irrigation {
+        height: 100%;
+        max-height: calc(100vH - 80px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper {
+        height: calc(100vH - 80px)
+    }
+
+    #toolbar-gardenplanner #object-menu-garden li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-sprinkler li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-waterconnector li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup,
+    #toolbar-gardenplanner #object-menu-edge-irrigation li.has-subgroup.scrollable-menu div.subgroup-wrapper .subgroup {
+        height: calc(100vh - 80px)
+    }
+}
+
+.mobile-os-android #toolbar-gardenplanner .subgroup.level-1,
+.mobile-os-android #toolbar-gardenplanner .subgroup.level-2 {
+    padding-bottom: 65px
+}
