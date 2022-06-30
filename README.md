@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Calscape Garden Planner
 
-## Getting Started
+### 1. Prerequisites
 
-First, run the development server:
+- [NodeJs](https://nodejs.org/en/) -JavaScript runtime built on Chrome's V8 JavaScript engine
+- [NPM](https://npmjs.org/) - Node package manager
+
+### 2. Installation
+
+On the command prompt run the following commands:
+
+``` 
+ $ https://github.com/Bikranshu/calscape-garden-planner.git
+ $ cd calscape-garden-planner
+ $ npm install
+```
+### 2. Run the development server:
 
 ```bash
 npm run dev
