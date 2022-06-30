@@ -27,15 +27,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/plotter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="934" column="140" selection-start-line="934" selection-start-column="140" selection-end-line="934" selection-end-column="140" />
+            <state relative-caret-position="232">
+              <caret line="2945" column="45" selection-start-line="2945" selection-start-column="45" selection-end-line="2945" selection-end-column="45" />
               <folding>
                 <element signature="e#1211#15977#0" />
-                <element signature="e#17038#56615#0" />
+                <element signature="e#15858#101788#0" />
                 <element signature="e#56738#77605#0" />
                 <element signature="e#77646#91814#0" />
-                <element signature="e#100226#203402#0" />
-                <element signature="e#203481#313060#0" />
+                <element signature="e#91928#101673#0" />
+                <element signature="e#102024#206840#0" />
+                <element signature="e#132683#157318#0" />
+                <element signature="e#157417#176977#0" />
+                <element signature="e#177087#196556#0" />
+                <element signature="e#196662#206725#0" />
+                <element signature="e#208458#244135#0" />
+                <element signature="e#209567#211705#0" />
+                <element signature="e#211758#213849#0" />
+                <element signature="e#213902#215959#0" />
+                <element signature="e#216012#218138#0" />
+                <element signature="e#218191#220290#0" />
+                <element signature="e#220343#222394#0" />
+                <element signature="e#222447#224551#0" />
+                <element signature="e#224604#226639#0" />
+                <element signature="e#226692#228900#0" />
+                <element signature="e#228953#230994#0" />
+                <element signature="e#231047#233191#0" />
+                <element signature="e#244209#255936#0" />
+                <element signature="e#256037#292102#0" />
+                <element signature="e#292204#299859#0" />
                 <element signature="e#313152#324870#0" />
               </folding>
             </state>
@@ -85,6 +104,8 @@
       <find>level</find>
       <find>hoverIndex</find>
       <find>hoverHandler</find>
+      <find>subgroup level-2</find>
+      <find>other</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,6 +138,11 @@
             <path>
               <item name="calscape-garden-planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="calscape-garden-planner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calscape-garden-planner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calscape-garden-planner" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,12 +195,12 @@
       <workItem from="1656572948533" duration="35000" />
       <workItem from="1656573006433" duration="69000" />
       <workItem from="1656583279691" duration="221000" />
-      <workItem from="1656583523079" duration="4341000" />
+      <workItem from="1656583523079" duration="6804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13459000" />
+    <option name="totallyTimeSpent" value="15922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -236,17 +262,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/plotter333.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/plotter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="934" column="140" selection-start-line="934" selection-start-column="140" selection-end-line="934" selection-end-column="140" />
+        <state relative-caret-position="232">
+          <caret line="2945" column="45" selection-start-line="2945" selection-start-column="45" selection-end-line="2945" selection-end-column="45" />
           <folding>
             <element signature="e#1211#15977#0" />
-            <element signature="e#17038#56615#0" />
+            <element signature="e#15858#101788#0" />
             <element signature="e#56738#77605#0" />
             <element signature="e#77646#91814#0" />
-            <element signature="e#100226#203402#0" />
-            <element signature="e#203481#313060#0" />
+            <element signature="e#91928#101673#0" />
+            <element signature="e#102024#206840#0" />
+            <element signature="e#132683#157318#0" />
+            <element signature="e#157417#176977#0" />
+            <element signature="e#177087#196556#0" />
+            <element signature="e#196662#206725#0" />
+            <element signature="e#208458#244135#0" />
+            <element signature="e#209567#211705#0" />
+            <element signature="e#211758#213849#0" />
+            <element signature="e#213902#215959#0" />
+            <element signature="e#216012#218138#0" />
+            <element signature="e#218191#220290#0" />
+            <element signature="e#220343#222394#0" />
+            <element signature="e#222447#224551#0" />
+            <element signature="e#224604#226639#0" />
+            <element signature="e#226692#228900#0" />
+            <element signature="e#228953#230994#0" />
+            <element signature="e#231047#233191#0" />
+            <element signature="e#244209#255936#0" />
+            <element signature="e#256037#292102#0" />
+            <element signature="e#292204#299859#0" />
             <element signature="e#313152#324870#0" />
           </folding>
         </state>

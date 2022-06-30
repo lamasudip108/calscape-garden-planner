@@ -2065,8 +2065,7 @@ function Plotter() {
                                                     alt="Leisure"
                                                     className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Leisure</span></span>
-                                            <div
-                                                className={`subgroup-wrapper only-objects level-2 first ${levelTwoHoverIndex.includes('Leisure') ? "visible" : ""}`}>
+                                            <div className={`subgroup-wrapper only-objects level-2 first ${levelTwoHoverIndex.includes('Leisure') ? "visible" : ""}`}>
                                                 <ul className="subgroup level-2 first">
                                                     <li data-bs-placement="top" data-bs-html="true"
                                                         data-bs-original-title="Grill"
@@ -2939,6 +2938,188 @@ function Plotter() {
                                                             src="https://my-garden.gardena.com/assets/elements/png/laterne.png?v=20220628-2ec948a"
                                                             className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Lantern</span>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className="has-subgroup only-objects level-2 gardenplanner-element scrollable-menu"
+                                            data-original-name="Other">
+                                            <span className="gui-toolbar-group" onMouseOver={e => {
+                                                levelTwoHoverHandler(e, 'Other2')
+                                            }}>
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/waeschespinne.png?v=20220628-2ec948a"
+                                                    alt="Other"
+                                                    className="icons"/><span
+                                                className="text-turquoise d-block mx-auto small">Other</span></span>
+                                            <div
+                                                className={`ubgroup-wrapper only-objects level-2 ${levelTwoHoverIndex.includes('Other2') ? "visible" : ""}`}>
+                                                <ul className="subgroup level-2">
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Clothes dryer"
+                                                        className="item-linebreak level-2 gardenplanner-element">
+                                                        <button className="button-item-waeschespinne item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/waeschespinne.png?v=20220628-2ec948a"
+                                                                data-item-name="Clothes dryer"
+                                                                data-item-slug="waeschespinne"
+                                                                data-item-scale="{&quot;x&quot;:2.5,&quot;y&quot;:2.5}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="310"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.clothesDryer"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/waeschespinne.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Clothes dryer</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Firewood stack"
+                                                        className="level-2 gardenplanner-element">
+                                                        <button className="button-item-brennholzstapel item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/brennholzstapel.png?v=20220628-2ec948a"
+                                                                data-item-name="Firewood stack"
+                                                                data-item-slug="brennholzstapel"
+                                                                data-item-scale="{&quot;x&quot;:1.5,&quot;y&quot;:0.5}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="250"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.firewood"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/brennholzstapel.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Firewood stack</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Lawnmower garage"
+                                                        className="level-2 gardenplanner-element">
+                                                        <button className="button-item-maehroboter_garage item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/maehroboter_garage.png?v=20220628-2ec948a"
+                                                                data-item-name="Lawnmower garage"
+                                                                data-item-slug="maehroboter_garage"
+                                                                data-item-scale="{&quot;x&quot;:0.5,&quot;y&quot;:0.6}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="250"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.lawnMowerGarage"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/maehroboter_garage.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Lawnmower garage</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Rain vat"
+                                                        className="level-2 gardenplanner-element">
+                                                        <button className="button-item-regentonne item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/regentonne.png?v=20220628-2ec948a"
+                                                                data-item-name="Rain vat" data-item-slug="regentonne"
+                                                                data-item-scale="{&quot;x&quot;:1.5,&quot;y&quot;:1.5}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="250"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.rainBarrel"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/regentonne.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Rain vat</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Stone"
+                                                        className="item-linebreak level-2 lastRow gardenplanner-element">
+                                                        <button className="button-item-stein item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/stein.png?v=20220628-2ec948a"
+                                                                data-item-name="Stone" data-item-slug="stein"
+                                                                data-item-scale="{&quot;x&quot;:1,&quot;y&quot;:1}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="170"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.stone"
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/stein.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Stone</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Statue"
+                                                        className="level-2 lastRow gardenplanner-element">
+                                                        <button className="button-item-statue item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/statue.png?v=20220628-2ec948a"
+                                                                data-item-name="Statue" data-item-slug="statue"
+                                                                data-item-scale="{&quot;x&quot;:0.6,&quot;y&quot;:0.6}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="370"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.statue"
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/statue.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Statue</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Compost"
+                                                        className="level-2 lastRow gardenplanner-element">
+                                                        <button className="button-item-kompost item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/kompost.png?v=20220628-2ec948a"
+                                                                data-item-name="Compost" data-item-slug="kompost"
+                                                                data-item-scale="{&quot;x&quot;:1,&quot;y&quot;:1}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="270"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling=""
+                                                                data-i18n="elements.fittings.others.compost"
+                                                                data-mode="garden">
+                                                            <img
+                                                                src="https://my-garden.gardena.com/assets/elements/png/kompost.png?v=20220628-2ec948a"
+                                                                className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Compost</span>
+                                                        </button>
+                                                    </li>
+                                                    <li data-bs-placement="top" data-bs-html="true"
+                                                        data-bs-original-title="Rubbish bin"
+                                                        className="level-2 lastRow gardenplanner-element">
+                                                        <button className="button-item-biomuell item-buttons"
+                                                                data-item-graphic="https://my-garden.gardena.com/assets/elements/png/biomuell.png?v=20220628-2ec948a"
+                                                                data-item-name="Rubbish bin" data-item-slug="biomuell"
+                                                                data-item-scale="{&quot;x&quot;:0.5,&quot;y&quot;:0.54}"
+                                                                data-item-priority="yellow" data-canvas-type="image"
+                                                                data-canvas-pattern="" data-canvas-geometry=""
+                                                                data-canvas-layer="structure"
+                                                                data-canvas-layerdepth="270"
+                                                                data-stroke-img="" data-stroke-width=""
+                                                                data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.others.wasteBin"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/biomuell.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
+                                                            className="text-turquoise d-block mx-auto small">Rubbish bin</span>
                                                         </button>
                                                     </li>
                                                 </ul>
