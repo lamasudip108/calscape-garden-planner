@@ -77,7 +77,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="101" data-stroke-img="" data-stroke-width=""
-                                                    data-fixedscaling=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.grass"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_gras.png?v=20220628-2ec948a"
@@ -96,6 +96,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="109" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.soil"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_erde.png?v=20220628-2ec948a"
@@ -114,6 +115,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="103" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.pavement"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_pflaster.png?v=20220628-2ec948a"
@@ -130,6 +132,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="107" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.wood"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_holz.png?v=20220628-2ec948a"
@@ -149,6 +152,7 @@ function Plotter() {
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="103" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.cobblestone"
                                                     data-mode="garden"><img
                                                 src="https://my-garden.gardena.com/assets/elements/png/kachel_kopfstein.png?v=20220628-2ec948a"
                                                 className="icons"/><span
@@ -164,6 +168,7 @@ function Plotter() {
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="280" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.wall"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/kachel_mauer.png?v=20220628-2ec948a"
@@ -180,6 +185,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="105" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.gravel"
                                                     data-mode="garden"><img
                                                 src="https://my-garden.gardena.com/assets/elements/png/kachel_kies.png?v=20220628-2ec948a"
                                                 className="icons"/><span
@@ -194,6 +200,7 @@ function Plotter() {
                                                     data-canvas-pattern="" data-canvas-geometry=""
                                                     data-canvas-layer="landscape"
                                                     data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="" data-i18n="elements.landscape.water"
                                                     data-mode="garden"><img
                                                 src="https://my-garden.gardena.com/assets/elements/png/kachel_wasser.png?v=20220628-2ec948a"
                                                 className="icons"/><span
@@ -244,6 +251,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="490"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.house.grey"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -264,6 +272,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="490"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.house.green"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/haus_gruen.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -284,6 +293,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="490"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.house.flat"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/haus_flachdach.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -304,6 +314,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="490"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.house.red"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/haus_rot.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -323,6 +334,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="470"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.garage"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/doppelgarage.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -342,6 +354,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="470"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.carport"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/carport.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -361,6 +374,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.buildings.oriel"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/erker_halbrund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -380,6 +394,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.oriel"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/erker_trapezoid.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -399,6 +414,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.oriel"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/erker_eckig.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -419,6 +435,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="190"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.buildings.stairs"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_rund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -438,6 +455,7 @@ function Plotter() {
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
                                                             data-stroke-img="" data-stroke-width="" data-fixedscaling=""
+                                                            data-i18n="elements.construction.buildings.stairs"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_1.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -457,6 +475,7 @@ function Plotter() {
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
                                                             data-stroke-img="" data-stroke-width="" data-fixedscaling=""
+                                                            data-i18n="elements.construction.buildings.stairs"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_2.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -476,6 +495,7 @@ function Plotter() {
                                                             data-canvas-pattern="" data-canvas-geometry=""
                                                             data-canvas-layer="structure" data-canvas-layerdepth="190"
                                                             data-stroke-img="" data-stroke-width="" data-fixedscaling=""
+                                                            data-i18n="elements.construction.buildings.stairs"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_3.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -496,6 +516,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="190"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.stairs"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_trapez.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -515,6 +536,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="480"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.balcony"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/aussenbalkon.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -534,6 +556,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.canopy"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/vordach_grau.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -553,6 +576,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.canopy"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/vordach_rot.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -572,6 +596,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="485"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.buildings.canopy"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/vordach_gruen.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -607,6 +632,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="130"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.surfaces.soil.rect"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/beet_eckig.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -626,6 +652,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="130"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.surfaces.soil.round"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/beet_rund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -646,6 +673,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="160"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.surfaces.wood.rect"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_eckig.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -666,6 +694,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="160"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.surfaces.wood.round"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_rund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -686,6 +715,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="145"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.surfaces.gravel.rect"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_eckig.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -706,6 +736,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="145"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.surfaces.gravel.round"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/kieselflaeche_rund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -726,6 +757,7 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="135"
                                                             data-stroke-img="" data-stroke-width="7"
                                                             data-fixedscaling=""
+                                                            data-i18n="elements.construction.surfaces.pavement.rect"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_eckig.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -746,6 +778,7 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="135"
                                                             data-stroke-img="" data-stroke-width="7"
                                                             data-fixedscaling="true"
+                                                            data-i18n="elements.construction.surfaces.pavement.round"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/pflasterflaeche_rund.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -766,6 +799,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="135"
                                                                 data-stroke-img="" data-stroke-width="7"
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.construction.surfaces.cobblestone"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/pfad_kopfstein.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -801,6 +835,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="280"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.barriers.wall.stone"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/steinmauer_gerade.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -820,6 +855,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="280"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.barriers.trellis"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/rankgitter.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -840,6 +876,7 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="280"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
+                                                            data-i18n="elements.construction.barriers.viewProtection.brown"
                                                             data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/sichtschutz_braun.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -860,10 +897,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="280"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sichtschutz_weiss.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.construction.barriers.viewProtection.white"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sichtschutz_weiss.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">White partition wall</span>
                                                         </button>
                                                     </li>
@@ -880,6 +917,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="282"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.construction.barriers.fence.brown"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/zaun_braun.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -899,10 +937,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="282"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/zaun_weiss.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.construction.barriers.fence.white"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/zaun_weiss.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">White fence</span>
                                                         </button>
                                                     </li>
@@ -937,10 +975,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="460"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gewaechshaus.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.construction.others.greenhouse"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gewaechshaus.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Greenhouse</span>
                                                         </button>
                                                     </li>
@@ -957,10 +995,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="460"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/spielhaus.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.construction.others.playhouse"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/spielhaus.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Playhouse</span>
                                                         </button>
                                                     </li>
@@ -977,10 +1015,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="460"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/pergola.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.construction.others.pergola"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/pergola.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Pergola</span>
                                                         </button>
                                                     </li>
@@ -997,10 +1035,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="201"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/hochbeet.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.construction.others.raisedBed"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/hochbeet.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Raised bed</span>
                                                         </button>
                                                     </li>
@@ -1049,6 +1087,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.trees.deciduous"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/laubbaum.png?v=20220628-2ec948a"
@@ -1068,10 +1107,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/ahorn.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.maple"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/ahorn.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Maple</span>
                                                         </button>
                                                     </li>
@@ -1087,10 +1126,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/tanne.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.fir"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/tanne.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Fir</span>
                                                         </button>
                                                     </li>
@@ -1106,10 +1145,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/birnenbaum.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.pear"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/birnenbaum.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Pear</span>
                                                         </button>
                                                     </li>
@@ -1125,10 +1164,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/apfelbaum.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.apple"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/apfelbaum.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Apple</span>
                                                         </button>
                                                     </li>
@@ -1144,10 +1183,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/kirschbaum.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.cherry"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/kirschbaum.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Cherry</span>
                                                         </button>
                                                     </li>
@@ -1163,10 +1202,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/palme.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.palm"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/palme.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Palm</span>
                                                         </button>
                                                     </li>
@@ -1182,6 +1221,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.trees.magnolia"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/magnolie.png?v=20220628-2ec948a"
@@ -1201,10 +1241,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="590"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/eiche.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.Oak"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/eiche.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Oak</span>
                                                         </button>
                                                     </li>
@@ -1220,10 +1260,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/pinie.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.pine"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/pinie.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Pine</span>
                                                         </button>
                                                     </li>
@@ -1239,10 +1279,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="580"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/birke.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.birch"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/birke.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Birch</span>
                                                         </button>
                                                     </li>
@@ -1258,6 +1298,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="570"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.trees.cypress"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/zypresse.png?v=20220628-2ec948a"
@@ -1277,10 +1318,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="560"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/guave.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.guava"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/guave.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Guava</span>
                                                         </button>
                                                     </li>
@@ -1296,10 +1337,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="180"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/baumstumpf.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.stump"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/baumstumpf.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Tree stump</span>
                                                         </button>
                                                     </li>
@@ -1332,6 +1373,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.plants.shrubbery.hedge"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/hecke_mitte.png?v=20220628-2ec948a"
@@ -1352,6 +1394,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.yellow"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/strauch_gelb.png?v=20220628-2ec948a"
@@ -1371,6 +1414,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.purple"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/strauch_flieder.png?v=20220628-2ec948a"
@@ -1390,6 +1434,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.white"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/strauch_holunder.png?v=20220628-2ec948a"
@@ -1410,6 +1455,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.pink"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/strauch_rosen.png?v=20220628-2ec948a"
@@ -1430,10 +1476,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/strauch_buchs.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.shrubbery.box.round"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/strauch_buchs.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Box, round</span>
                                                         </button>
                                                     </li>
@@ -1449,10 +1495,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/buchs.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.shrubbery.box.rect"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/buchs.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Box, rect.</span>
                                                         </button>
                                                     </li>
@@ -1469,6 +1515,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.wild"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/wilder_strauch.png?v=20220628-2ec948a"
@@ -1489,6 +1536,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.dry"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/trockener_strauch.png?v=20220628-2ec948a"
@@ -1508,6 +1556,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.shrubbery.cactus"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/kaktus.png?v=20220628-2ec948a"
@@ -1528,10 +1577,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/kaktus_rund.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.shrubbery.cactusRound"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/kaktus_rund.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round cactus</span>
                                                         </button>
                                                     </li>
@@ -1563,6 +1612,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="228"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.flowers.yellow"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/sonnenblumen.png?v=20220628-2ec948a"
@@ -1582,6 +1632,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="228"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.flowers.red"
                                                                 data-mode="garden"><img
                                                             src="https://my-garden.gardena.com/assets/elements/png/rosenstrauch.png?v=20220628-2ec948a"
                                                             className="icons"/><span
@@ -1600,6 +1651,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.flowers.white"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/hortensie_weiss.png?v=20220628-2ec948a"
@@ -1619,6 +1671,7 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.plants.flowers.lilac"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/lavendel.png?v=20220628-2ec948a"
@@ -1638,10 +1691,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/tulpe.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.flowers.pink"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/tulpe.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Tulip</span>
                                                         </button>
                                                     </li>
@@ -1657,10 +1710,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="205"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/veilchen.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.flowers.blue"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/veilchen.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Violet</span>
                                                         </button>
                                                     </li>
@@ -1676,10 +1729,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/farn.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.flowers.fern"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/farn.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Fern</span>
                                                         </button>
                                                     </li>
@@ -1695,10 +1748,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="225"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/schilf.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.flowers.reed"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/schilf.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Reeds</span>
                                                         </button>
                                                     </li>
@@ -1714,10 +1767,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="555"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/bambus.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.trees.bamboo"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/bambus.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bamboo</span>
                                                         </button>
                                                     </li>
@@ -1749,10 +1802,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/erdbeere.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.strawberry"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/erdbeere.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Strawberries</span>
                                                         </button>
                                                     </li>
@@ -1768,10 +1821,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/himbeere.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.raspberry"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/himbeere.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Raspberries</span>
                                                         </button>
                                                     </li>
@@ -1787,10 +1840,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/johannisbeere.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.currant"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/johannisbeere.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Currants</span>
                                                         </button>
                                                     </li>
@@ -1806,10 +1859,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/tomate.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.tomato"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/tomate.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Tomatoes</span>
                                                         </button>
                                                     </li>
@@ -1825,10 +1878,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gurke.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.cucumber"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gurke.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Cucumber</span>
                                                         </button>
                                                     </li>
@@ -1844,10 +1897,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/rotkohl.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.cabbage.red"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/rotkohl.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Cabbage</span>
                                                         </button>
                                                     </li>
@@ -1863,10 +1916,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/karotte.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.carrot"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/karotte.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Carrot</span>
                                                         </button>
                                                     </li>
@@ -1882,10 +1935,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/kartoffel.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.potato"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/kartoffel.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Potato</span>
                                                         </button>
                                                     </li>
@@ -1901,10 +1954,10 @@ function Plotter() {
                                                                 data-canvas-layer="plants" data-canvas-layerdepth="230"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/blumenkohl.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.plants.fruitsVegtables.cauliflower"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/blumenkohl.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Cauliflower</span>
                                                         </button>
                                                     </li>
@@ -1938,6 +1991,7 @@ function Plotter() {
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
+                                                            data-i18n="elements.plants.pots.round.shrub"
                                                             data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/gr_topf_m_strauch_rund.png?v=20220628-2ec948a"
@@ -1959,10 +2013,10 @@ function Plotter() {
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gr_topf_ohne_strauch_rund.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.plants.pots.round.noShrub"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gr_topf_ohne_strauch_rund.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round pot</span>
                                                         </button>
                                                     </li>
@@ -1980,6 +2034,7 @@ function Plotter() {
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
+                                                            data-i18n="elements.plants.pots.rect.shrub"
                                                             data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/gr_topf_m_strauch_eckig.png?v=20220628-2ec948a"
@@ -2001,10 +2056,10 @@ function Plotter() {
                                                             data-canvas-layer="plants" data-canvas-layerdepth="202"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gr_topf_ohne_strauch_eckig.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.plants.pots.rect.noShrub"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gr_topf_ohne_strauch_eckig.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Rect. pot</span>
                                                         </button>
                                                     </li>
@@ -2053,6 +2108,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="305"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.leisure.grill"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/kohlegrill_rund.png?v=20220628-2ec948a"
@@ -2073,6 +2129,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="305"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.leisure.smoker"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/smoker.png?v=20220628-2ec948a"
@@ -2093,10 +2150,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="305"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/feuerstaette.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.fireplace"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/feuerstaette.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Fireplace</span>
                                                         </button>
                                                     </li>
@@ -2114,10 +2171,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="370"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/klettergeruest.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.playTower"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/klettergeruest.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Play tower</span>
                                                         </button>
                                                     </li>
@@ -2134,6 +2191,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="350"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.fittings.leisure.slide"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/rutsche.png?v=20220628-2ec948a"
@@ -2154,10 +2212,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="310"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/hundehuette.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.doghouse"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/hundehuette.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Dog kennel</span>
                                                         </button>
                                                     </li>
@@ -2174,6 +2232,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="310"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
+                                                                data-i18n="elements.fittings.leisure.pen"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/freilaufgehege.png?v=20220628-2ec948a"
@@ -2194,10 +2253,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="170"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sandkiste.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.sandpit"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sandkiste.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Sand box</span>
                                                         </button>
                                                     </li>
@@ -2215,6 +2274,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="370"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.leisure.swings"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/schaukel.png?v=20220628-2ec948a"
@@ -2235,10 +2295,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="308"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/haengematte.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.hammock"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/haengematte.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Hammock</span>
                                                         </button>
                                                     </li>
@@ -2256,10 +2316,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="320"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/fussballtor.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.soccerGoal"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/fussballtor.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Kids' football goal</span>
                                                         </button>
                                                     </li>
@@ -2276,10 +2336,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="320"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/trampolin.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.trampoline"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/trampolin.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Trampoline</span>
                                                         </button>
                                                     </li>
@@ -2297,10 +2357,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="330"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/huepfburg.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.bouncyCastle"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/huepfburg.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bouncy castle</span>
                                                         </button>
                                                     </li>
@@ -2318,10 +2378,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="330"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/partyzelt_gross.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.partyTent.large"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/partyzelt_gross.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Party tent, L</span>
                                                         </button>
                                                     </li>
@@ -2339,10 +2399,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="200"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/partyzelt_klein.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.partyTent.small"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/partyzelt_klein.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Party tent, S</span>
                                                         </button>
                                                     </li>
@@ -2359,10 +2419,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="340"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/pavillion.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.leisure.pavilion"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/pavillion.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Pavilion</span>
                                                         </button>
                                                     </li>
@@ -2395,10 +2455,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="306"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/auto_limousine_weiss.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.vehicles.car.limousine"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/auto_limousine_weiss.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Limo</span>
                                                         </button>
                                                     </li>
@@ -2415,10 +2475,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="306"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/auto_suv_grau.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.vehicles.car.suv"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/auto_suv_grau.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">SUV</span>
                                                         </button>
                                                     </li>
@@ -2436,10 +2496,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="306"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/auto_kleinwagen_gelb.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.vehicles.car.small"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/auto_kleinwagen_gelb.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Small car</span>
                                                         </button>
                                                     </li>
@@ -2456,10 +2516,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="306"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/fahrrad.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.vehicles.bicycle"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/fahrrad.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bicycle</span>
                                                         </button>
                                                     </li>
@@ -2476,10 +2536,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="306"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/auto_anhaenger.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.vehicles.trailer"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/auto_anhaenger.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Trailer</span>
                                                         </button>
                                                     </li>
@@ -2511,10 +2571,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gartenbank.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.bench.regular"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gartenbank.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bench</span>
                                                         </button>
                                                     </li>
@@ -2531,10 +2591,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gartenbank_holz.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.bench.wood"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gartenbank_holz.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Bench</span>
                                                         </button>
                                                     </li>
@@ -2552,10 +2612,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/lounge_gruppe.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.group.lounge"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/lounge_gruppe.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Lounge seat group</span>
                                                         </button>
                                                     </li>
@@ -2573,10 +2633,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/lounge_eckbank_m_tisch.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.corner.lounge"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/lounge_eckbank_m_tisch.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Lounge corner bench</span>
                                                         </button>
                                                     </li>
@@ -2594,10 +2654,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="360"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/eckbank_m_tisch_weiss.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.corner.regular"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/eckbank_m_tisch_weiss.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Corner bench</span>
                                                         </button>
                                                     </li>
@@ -2615,10 +2675,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="360"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/eckbank_m_tisch_holz.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.corner.wood"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/eckbank_m_tisch_holz.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Corner bench</span>
                                                         </button>
                                                     </li>
@@ -2636,10 +2696,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/esstisch_eckig_weiss.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.set.rect.regular"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/esstisch_eckig_weiss.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Rect. table with chairs</span>
                                                         </button>
                                                     </li>
@@ -2657,10 +2717,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_eckig_holz.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.set.rect.wood"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_eckig_holz.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Rect. table with chairs</span>
                                                         </button>
                                                     </li>
@@ -2678,10 +2738,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_rund.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.set.round.regular"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_rund.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round table with chairs</span>
                                                         </button>
                                                     </li>
@@ -2699,10 +2759,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="362"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_rund_holz.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.set.round.wood"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/esstischgruppe_rund_holz.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round table with chairs</span>
                                                         </button>
                                                     </li>
@@ -2720,10 +2780,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/hollywoodschaukel.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.swing"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/hollywoodschaukel.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Hollywood swing</span>
                                                         </button>
                                                     </li>
@@ -2740,10 +2800,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sitzsack.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.beanbag"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sitzsack.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Beanbag</span>
                                                         </button>
                                                     </li>
@@ -2761,10 +2821,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/gartenliege_lounge.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.sunbed.lounge"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/gartenliege_lounge.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Sun lounger</span>
                                                         </button>
                                                     </li>
@@ -2781,10 +2841,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="360"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sonnenliege.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.furniture.sunbed.regular"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sonnenliege.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Sunbed</span>
                                                         </button>
                                                     </li>
@@ -2802,10 +2862,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="460"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sonnenschirm_rund_creme.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.parasol.round"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sonnenschirm_rund_creme.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Round parasol</span>
                                                         </button>
                                                     </li>
@@ -2823,10 +2883,10 @@ function Plotter() {
                                                             data-canvas-layer="structure" data-canvas-layerdepth="460"
                                                             data-stroke-img="" data-stroke-width=""
                                                             data-fixedscaling="true"
-                                                            data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/sonnenschirm_eckig_grau.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                            data-i18n="elements.fittings.furniture.parasol.rect"
+                                                            data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/sonnenschirm_eckig_grau.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Rectangular parasol</span>
                                                         </button>
                                                     </li>
@@ -2860,6 +2920,7 @@ function Plotter() {
                                                                 data-canvas-layerdepth="201"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
+                                                                data-i18n="elements.fittings.lighting.floor"
                                                                 data-mode="garden">
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/bodenleuchte.png?v=20220628-2ec948a"
@@ -2880,10 +2941,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="270"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/scheinwerfer.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.lighting.outside"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/scheinwerfer.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Spotlight</span>
                                                         </button>
                                                     </li>
@@ -2900,10 +2961,10 @@ function Plotter() {
                                                                 data-canvas-layerdepth="270"
                                                                 data-stroke-img="" data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
-                                                            <img
-                                                                src="https://my-garden.gardena.com/assets/elements/png/laterne.png?v=20220628-2ec948a"
-                                                                className="icons"/><span
+                                                                data-i18n="elements.fittings.lighting.lantern"
+                                                                data-mode="garden"><img
+                                                            src="https://my-garden.gardena.com/assets/elements/png/laterne.png?v=20220628-2ec948a"
+                                                            className="icons"/><span
                                                             className="text-turquoise d-block mx-auto small">Lantern</span>
                                                         </button>
                                                     </li>
@@ -2937,6 +2998,7 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
                                                     data-canvas-layerdepth="120" data-stroke-img="" data-stroke-width=""
+                                                    data-fixedscaling="true" data-i18n="elements.water.well"
                                                     data-mode="garden">
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/brunnen.png?v=20220628-2ec948a"
@@ -2956,10 +3018,9 @@ function Plotter() {
                                                     data-canvas-geometry=""
                                                     data-canvas-layer="structure" data-canvas-layerdepth="122"
                                                     data-stroke-img="" data-stroke-width="" data-fixedscaling="true"
-                                                    data-mode="garden">
-                                                <img
-                                                    src="https://my-garden.gardena.com/assets/elements/png/pool_eckig.png?v=20220628-2ec948a"
-                                                    className="icons"/><span
+                                                    data-i18n="elements.water.pool.rect" data-mode="garden"><img
+                                                src="https://my-garden.gardena.com/assets/elements/png/pool_eckig.png?v=20220628-2ec948a"
+                                                className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Rect. pool</span>
                                             </button>
                                         </li>
@@ -2975,10 +3036,9 @@ function Plotter() {
                                                     data-canvas-geometry=""
                                                     data-canvas-layer="structure" data-canvas-layerdepth="122"
                                                     data-stroke-img="" data-stroke-width="" data-fixedscaling="true"
-                                                    data-mode="garden">
-                                                <img
-                                                    src="https://my-garden.gardena.com/assets/elements/png/pool_rund.png?v=20220628-2ec948a"
-                                                    className="icons"/><span
+                                                    data-i18n="elements.water.pool.round" data-mode="garden"><img
+                                                src="https://my-garden.gardena.com/assets/elements/png/pool_rund.png?v=20220628-2ec948a"
+                                                className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Round pool</span>
                                             </button>
                                         </li>
@@ -2993,11 +3053,10 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
                                                     data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
-                                                    data-fixedscaling="true"
-                                                    data-mode="garden">
-                                                <img
-                                                    src="https://my-garden.gardena.com/assets/elements/png/teich_gross.png?v=20220628-2ec948a"
-                                                    className="icons"/><span
+                                                    data-fixedscaling="true" data-i18n="elements.water.pond.large"
+                                                    data-mode="garden"><img
+                                                src="https://my-garden.gardena.com/assets/elements/png/teich_gross.png?v=20220628-2ec948a"
+                                                className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Pond, large</span>
                                             </button>
                                         </li>
@@ -3012,11 +3071,10 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
                                                     data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
-                                                    data-fixedscaling="true"
-                                                    data-mode="garden">
-                                                <img
-                                                    src="https://my-garden.gardena.com/assets/elements/png/teich_klein.png?v=20220628-2ec948a"
-                                                    className="icons"/><span
+                                                    data-fixedscaling="true" data-i18n="elements.water.pond.small"
+                                                    data-mode="garden"><img
+                                                src="https://my-garden.gardena.com/assets/elements/png/teich_klein.png?v=20220628-2ec948a"
+                                                className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Pond, small</span>
                                             </button>
                                         </li>
@@ -3031,11 +3089,10 @@ function Plotter() {
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="structure"
                                                     data-canvas-layerdepth="122" data-stroke-img="" data-stroke-width=""
-                                                    data-fixedscaling="true"
-                                                    data-mode="garden">
-                                                <img
-                                                    src="https://my-garden.gardena.com/assets/elements/png/teich_oval.png?v=20220628-2ec948a"
-                                                    className="icons"/><span
+                                                    data-fixedscaling="true" data-i18n="elements.water.pond.oval"
+                                                    data-mode="garden"><img
+                                                src="https://my-garden.gardena.com/assets/elements/png/teich_oval.png?v=20220628-2ec948a"
+                                                className="icons"/><span
                                                 className="text-turquoise d-block mx-auto small">Pond, oval</span>
                                             </button>
                                         </li>
