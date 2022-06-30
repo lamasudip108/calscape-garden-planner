@@ -2,13 +2,19 @@ import React, {useState} from "react";
 
 function Plotter() {
 
-    const [hoverIndex, setHoverIndex] = useState([]);
+    const [levelOnehoverIndex, setLevelOneHoverIndex] = useState([]);
+    const [levelTwoHoverIndex, setLevelTwoHoverIndex] = useState([]);
 
-    const hoverHandler = (e, name) => {
-        setHoverIndex((prev) => [[], name]);
+    const levelOneHoverHandler = (e, name) => {
+        setLevelOneHoverIndex((prev) => [[], name]);
+        setLevelTwoHoverIndex([])
     };
 
-    console.log("hoverIndex", hoverIndex);
+    const levelTwoHoverHandler = (e, name) => {
+        setLevelTwoHoverIndex((prev) => [[], name]);
+    };
+
+    console.log("levelOnehoverIndex", levelOnehoverIndex, levelTwoHoverIndex);
 
     return (
         <div className="row">
@@ -24,7 +30,7 @@ function Plotter() {
                                 data-original-name="Plot">
                         <span className="gui-toolbar-group"
                               onMouseOver={e => {
-                                  hoverHandler(e, 'Plot')
+                                  levelOneHoverHandler(e, 'Plot')
                               }}
                         >
                             <img
@@ -33,7 +39,7 @@ function Plotter() {
                                 <span className="text-turquoise d-block mx-auto small">Plot</span>
                         </span>
                                 <div
-                                    className={`subgroup-wrapper only-objects level-1 ${hoverIndex.includes('Plot') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper only-objects level-1 ${levelOnehoverIndex.includes('Plot') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li data-bs-placement="right" data-bs-html="true" data-bs-original-title="Lawns"
                                             className="item-linebreak level-1 gardenplanner-element">
@@ -179,7 +185,7 @@ function Plotter() {
                             <li className="has-subgroup level-1 gardenplanner-element scrollable-menu"
                                 data-original-name="Houses and extensions">
                                 <span className="gui-toolbar-group" onMouseOver={e => {
-                                    hoverHandler(e, 'Houses and extensions')
+                                    levelOneHoverHandler(e, 'Houses and extensions')
                                 }}
                                 >
                         <img
@@ -188,17 +194,21 @@ function Plotter() {
                                 <span className="text-turquoise d-block mx-auto small">Houses and extensions</span>
                                 </span>
                                 <div
-                                    className={`subgroup-wrapper level-1 scrollable-checked ${hoverIndex.includes('Houses and extensions') ? "visible" : ""}`}
+                                    className={`subgroup-wrapper level-1 scrollable-checked ${levelOnehoverIndex.includes('Houses and extensions') ? "visible" : ""}`}
                                     style={{height: "261px"}}>
                                     <ul className="subgroup level-1" style={{height: "261px"}}>
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
                                             data-original-name="Houses and boundaries">
-                                            <span className="gui-toolbar-group">
+                                            <span className="gui-toolbar-group" onMouseOver={e => {
+                                                levelTwoHoverHandler(e, 'Houses and boundaries')
+                                            }}>
                                                 <img
                                                     src="https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a"
-                                                    alt="Houses and boundaries" className="icons"/><span
-                                                className="text-turquoise d-block mx-auto small">Houses and boundaries</span></span>
-                                            <div className="subgroup-wrapper only-objects level-2 first">
+                                                    alt="Houses and boundaries" className="icons"/>
+                                                <span className="text-turquoise d-block mx-auto small">Houses and boundaries</span>
+                                            </span>
+                                            <div
+                                                className={`subgroup-wrapper only-objects level-2 first ${levelTwoHoverIndex.includes('Houses and boundaries') ? "visible" : ""}`}>
                                                 <ul className="subgroup level-2 first">
                                                     <li data-bs-placement="top" data-bs-html="true"
                                                         data-bs-original-title="Grey-roof house"
@@ -570,13 +580,17 @@ function Plotter() {
                                             </div>
                                         </li>
                                         <li className="has-subgroup only-objects level-2 gardenplanner-element scrollable-menu"
-                                            data-original-name="Terraces and surfaces"><span
-                                            className="gui-toolbar-group"><img
-                                            src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_eckig.png?v=20220628-2ec948a"
-                                            alt="Terraces and surfaces" className="icons"/>
+                                            data-original-name="Terraces and surfaces">
+                                            <span className="gui-toolbar-group" onMouseOver={e => {
+                                                levelTwoHoverHandler(e, 'Terraces and surfaces')
+                                            }}>
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/holzflaeche_eckig.png?v=20220628-2ec948a"
+                                                    alt="Terraces and surfaces" className="icons"/>
                                             <span
                                                 className="text-turquoise d-block mx-auto small">Terraces and surfaces</span></span>
-                                            <div className="subgroup-wrapper only-objects level-2">
+                                            <div
+                                                className={`subgroup-wrapper only-objects level-2 ${levelTwoHoverIndex.includes('Terraces and surfaces') ? "visible" : ""}`}>
                                                 <ul className="subgroup level-2">
                                                     <li data-bs-placement="top" data-bs-html="true"
                                                         data-bs-original-title="Bed, rect."
@@ -769,12 +783,16 @@ function Plotter() {
                                             </div>
                                         </li>
                                         <li className="has-subgroup only-objects level-2 gardenplanner-element scrollable-menu"
-                                            data-original-name="Fences and boundaries"><span
-                                            className="gui-toolbar-group"><img
-                                            src="https://my-garden.gardena.com/assets/elements/png/steinmauer_gerade.png?v=20220628-2ec948a"
-                                            alt="Fences and boundaries" className="icons"/><span
-                                            className="text-turquoise d-block mx-auto small">Fences and boundaries</span></span>
-                                            <div className="subgroup-wrapper only-objects level-2">
+                                            data-original-name="Fences and boundaries">
+                                            <span className="gui-toolbar-group" onMouseOver={e => {
+                                                levelTwoHoverHandler(e, 'Fences and boundaries')
+                                            }}>
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/steinmauer_gerade.png?v=20220628-2ec948a"
+                                                    alt="Fences and boundaries" className="icons"/><span
+                                                className="text-turquoise d-block mx-auto small">Fences and boundaries</span></span>
+                                            <div
+                                                className={`subgroup-wrapper only-objects level-2 ${levelTwoHoverIndex.includes('Fences and boundaries') ? "visible" : ""}`}>
                                                 <ul className="subgroup level-2">
                                                     <li data-bs-placement="top" data-bs-html="true"
                                                         data-bs-original-title="Stone wall"
@@ -903,12 +921,18 @@ function Plotter() {
                                             </div>
                                         </li>
                                         <li className="has-subgroup only-objects level-2 gardenplanner-element scrollable-menu"
-                                            data-original-name="Other items"><span className="gui-toolbar-group"><img
-                                            src="https://my-garden.gardena.com/assets/elements/png/gewaechshaus.png?v=20220628-2ec948a"
-                                            alt="Other items"
-                                            className="icons"/><span
-                                            className="text-turquoise d-block mx-auto small">Other items</span></span>
-                                            <div className="subgroup-wrapper only-objects level-2">
+                                            data-original-name="Other items">
+                                            <span className="gui-toolbar-group" onMouseOver={e => {
+                                                levelTwoHoverHandler(e, 'Other items')
+                                            }}>
+                                                <img
+                                                    src="https://my-garden.gardena.com/assets/elements/png/gewaechshaus.png?v=20220628-2ec948a"
+                                                    alt="Other items"
+                                                    className="icons"/>
+                                                <span
+                                                    className="text-turquoise d-block mx-auto small">Other items</span></span>
+                                            <div
+                                                className={`subgroup-wrapper only-objects level-2 ${levelTwoHoverIndex.includes('Other items') ? "visible" : ""}`}>
                                                 <ul className="subgroup level-2">
                                                     <li data-bs-placement="top" data-bs-html="true"
                                                         data-bs-original-title="Greenhouse"
@@ -1001,14 +1025,14 @@ function Plotter() {
                                 data-original-name="Plants">
                                 <span className="gui-toolbar-group"
                                       onMouseOver={e => {
-                                          hoverHandler(e, 'Plants')
+                                          levelOneHoverHandler(e, 'Plants')
                                       }}>
                                     <img
                                         src="https://my-garden.gardena.com/assets/icons/svg/171107_GAR_Gartenplaner_Icons_5_Pflanzen.svg?v=20220628-2ec948a"
                                         alt="Plants" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Plants</span></span>
                                 <div
-                                    className={`subgroup-wrapper level-1 ${hoverIndex.includes('Plants') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper level-1 ${levelOnehoverIndex.includes('Plants') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
                                             data-original-name="Trees"><span className="gui-toolbar-group"><img
@@ -1995,14 +2019,14 @@ function Plotter() {
                                 data-original-name="Furniture + Leisure">
                                 <span className="gui-toolbar-group"
                                       onMouseOver={e => {
-                                          hoverHandler(e, 'Furniture + Leisure')
+                                          levelOneHoverHandler(e, 'Furniture + Leisure')
                                       }}>
                                     <img
                                         src="https://my-garden.gardena.com/assets/icons/svg/171107_GAR_Gartenplaner_Icons_4_Ausstattung.svg?v=20220628-2ec948a"
                                         alt="Furniture + Leisure" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Furniture + Leisure</span></span>
                                 <div
-                                    className={`subgroup-wrapper level-1 ${hoverIndex.includes('Furniture + Leisure') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper level-1 ${levelOnehoverIndex.includes('Furniture + Leisure') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
                                             data-original-name="Leisure"><span className="gui-toolbar-group"><img
@@ -3057,14 +3081,14 @@ function Plotter() {
                                 data-original-name="Ponds and pools">
                                 <span className="gui-toolbar-group"
                                       onMouseOver={e => {
-                                          hoverHandler(e, 'Ponds and pools')
+                                          levelOneHoverHandler(e, 'Ponds and pools')
                                       }}>
                                     <img
                                         src="https://my-garden.gardena.com/assets/icons/svg/171107_GAR_Gartenplaner_Icons_6_Wasser-Pools-Teiche.svg?v=20220628-2ec948a"
                                         alt="Ponds and pools" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Ponds and pools</span></span>
                                 <div
-                                    className={`subgroup-wrapper only-objects level-1 ${hoverIndex.includes('Ponds and pools') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper only-objects level-1 ${levelOnehoverIndex.includes('Ponds and pools') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li data-bs-placement="right" data-bs-html="true"
                                             data-bs-original-title="Fountain"
