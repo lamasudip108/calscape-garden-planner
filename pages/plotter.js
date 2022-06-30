@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
+import {fabric} from 'fabric';
 
 function Plotter() {
 
@@ -13,6 +14,32 @@ function Plotter() {
     const levelTwoHoverHandler = (e, name) => {
         setLevelTwoHoverIndex((prev) => [[], name]);
     };
+
+    useEffect(() => {
+        let canvas = new fabric.Canvas('garden', {selection: false});
+        let grid = 50;
+        let unitScale = 10;
+        let canvasWidth = 100 * unitScale;
+        let canvasHeight = 50 * unitScale;
+
+        canvas.setWidth(canvasWidth);
+        canvas.setHeight(canvasHeight);
+
+        // create grid
+        for (let i = 0; i < (canvasWidth / grid); i++) {
+            canvas.add(new fabric.Line([i * grid, 0, i * grid, canvasHeight], {
+                type: 'line',
+                stroke: '#ccc',
+                selectable: false
+            }));
+            canvas.add(new fabric.Line([0, i * grid, canvasWidth, i * grid], {
+                type: 'line',
+                stroke: '#ccc',
+                selectable: false
+            }))
+        }
+
+    }, []);
 
     console.log("levelOnehoverIndex", levelOnehoverIndex, levelTwoHoverIndex);
 
@@ -3076,9 +3103,8 @@ function Plotter() {
                     </div>
                 </div>
             </div>
-            <div className="column right" style={{backgroundColor: "#bbb;"}}>
-                <h2>Column 2</h2>
-                <p>Some text..</p>
+            <div className="column right" style={{marginLeft: '20px', backgroundColor: "#f3f1f1"}}>
+                <canvas id="garden"></canvas>
             </div>
         </div>
     )

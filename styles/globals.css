@@ -24,15 +24,15 @@ a {
 .column {
     float: left;
     padding: 10px;
-    height: 300px;
+    height: 520px;
 }
 
 .left {
-    width: 15%;
+    width: 17%;
 }
 
 .right {
-    width: 75%;
+    width: auto;
 }
 
 .row:after {
