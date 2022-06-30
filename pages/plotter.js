@@ -76,7 +76,9 @@ function Plotter() {
                                                     data-item-priority="green" data-canvas-type="polygon"
                                                     data-canvas-pattern=""
                                                     data-canvas-geometry="" data-canvas-layer="landscape"
-                                                    data-canvas-layerdepth="101" data-stroke-img="" data-stroke-width=""
+                                                    data-canvas-layerdepth="101"
+                                                    data-stroke-img=""
+                                                    data-stroke-width=""
                                                     data-fixedscaling=""
                                                     data-mode="garden">
                                                 <img
