@@ -345,7 +345,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/haus_gruen.png?v=20220628-2ec948a', canvasBox)}>
+                                                            >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/haus_gruen.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -369,7 +371,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/haus_flachdach.png?v=20220628-2ec948a', canvasBox)}>
+                                                            >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/haus_flachdach.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -393,7 +397,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/haus_rot.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/haus_rot.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -417,7 +423,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/doppelgarage.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/doppelgarage.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -441,7 +449,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/carport.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/carport.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -465,7 +475,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/erker_halbrund.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/erker_halbrund.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -489,7 +501,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/erker_trapezoid.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/erker_trapezoid.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -513,7 +527,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/erker_eckig.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/erker_eckig.png?v=20220628-2ec948a"
                                                                 className="icons"/>
@@ -538,7 +554,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling="true"
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussentreppe_rund.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_rund.png?v=20220628-2ec948a"
                                                                 className="icons"/>
@@ -564,7 +582,9 @@ function Plotter() {
                                                             data-stroke-img=""
                                                             data-stroke-width=""
                                                             data-fixedscaling=""
-                                                            data-mode="garden">
+                                                            data-mode="garden"
+                                                            onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_1.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_1.png?v=20220628-2ec948a"
                                                                 className="icons"/>
@@ -590,7 +610,9 @@ function Plotter() {
                                                             data-stroke-img=""
                                                             data-stroke-width=""
                                                             data-fixedscaling=""
-                                                            data-mode="garden">
+                                                            data-mode="garden"
+                                                            onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_2.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_2.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -615,7 +637,9 @@ function Plotter() {
                                                             data-stroke-img=""
                                                             data-stroke-width=""
                                                             data-fixedscaling=""
-                                                            data-mode="garden">
+                                                            data-mode="garden"
+                                                            onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_3.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_eckig_3.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -639,7 +663,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussentreppe_trapez.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussentreppe_trapez.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -663,7 +689,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/aussenbalkon.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/aussenbalkon.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -687,7 +715,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/vordach_grau.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/vordach_grau.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -711,7 +741,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/vordach_rot.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/vordach_rot.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -735,7 +767,9 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/vordach_gruen.png?v=20220628-2ec948a', canvasBox)}
+                                                        >
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/vordach_gruen.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
