@@ -3,8 +3,9 @@ import {fabric} from 'fabric';
 
 function Plotter() {
 
-    const [levelOnehoverIndex, setLevelOneHoverIndex] = useState([]);
+    const [levelOneHoverIndex, setLevelOneHoverIndex] = useState([]);
     const [levelTwoHoverIndex, setLevelTwoHoverIndex] = useState([]);
+    const [canvasBox, setCanvasBox] = useState('');
 
     const levelOneHoverHandler = (e, name) => {
         setLevelOneHoverIndex((prev) => [[], name]);
@@ -15,8 +16,13 @@ function Plotter() {
         setLevelTwoHoverIndex((prev) => [[], name]);
     };
 
+    const mouseOutHandler = (e) => {
+        setLevelOneHoverIndex([]);
+        setLevelTwoHoverIndex([])
+    };
+
     useEffect(() => {
-        let canvas = new fabric.Canvas('garden', {selection: false});
+        let canvas = new fabric.Canvas('garden', {selection: false, hoverCursor: 'pointer'});
         let grid = 50;
         let unitScale = 10;
         let canvasWidth = 100 * unitScale;
@@ -38,16 +44,28 @@ function Plotter() {
                 selectable: false
             }))
         }
+        setCanvasBox(canvas);
 
     }, []);
 
-    console.log("levelOnehoverIndex", levelOnehoverIndex, levelTwoHoverIndex);
+    const addImage = (e, url, canvi) => {
+        e.preventDefault();
+        new fabric.Image.fromURL(url, img => {
+            img.scale(0.25);
+            canvi.add(img);
+            canvi.renderAll();
+        });
+    };
+
+    console.log("levelOnehoverIndex", canvasBox, levelOneHoverIndex, levelTwoHoverIndex);
 
     return (
         <div className="row">
-            <div className="column left" style={{backgroundColor: "#fff;"}}>
+            <div className="column left" style={{backgroundColor: "#fff"}}>
                 <div id="toolbar-gardenplanner">
-                    <div id="object-menu-full" className="toolbar-gardenplanner-menu">
+                    <div id="object-menu-full" className="toolbar-gardenplanner-menu" onMouseLeave={e => {
+                        mouseOutHandler(e)
+                    }}>
                         <ul id="object-menu-garden" className="has-subgroup object-menu visible-state scrollable-menu"
                             style={{width: "160px"}}>
                             <li className="level-1 gardenplanner-element menu-headline">
@@ -66,7 +84,7 @@ function Plotter() {
                                 <span className="text-turquoise d-block mx-auto small">Plot</span>
                         </span>
                                 <div
-                                    className={`subgroup-wrapper only-objects level-1 ${levelOnehoverIndex.includes('Plot') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper only-objects level-1 ${levelOneHoverIndex.includes('Plot') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li data-bs-placement="right" data-bs-html="true" data-bs-original-title="Lawns"
                                             className="item-linebreak level-1 gardenplanner-element">
@@ -262,7 +280,7 @@ function Plotter() {
                                 <span className="text-turquoise d-block mx-auto small">Houses and extensions</span>
                                 </span>
                                 <div
-                                    className={`subgroup-wrapper level-1 scrollable-checked ${levelOnehoverIndex.includes('Houses and extensions') ? "visible" : ""}`}
+                                    className={`subgroup-wrapper level-1 scrollable-checked ${levelOneHoverIndex.includes('Houses and extensions') ? "visible" : ""}`}
                                     style={{height: "261px"}}>
                                     <ul className="subgroup level-1" style={{height: "261px"}}>
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
@@ -295,7 +313,8 @@ function Plotter() {
                                                                 data-stroke-img=""
                                                                 data-stroke-width=""
                                                                 data-fixedscaling=""
-                                                                data-mode="garden">
+                                                                data-mode="garden"
+                                                                onClick={e => addImage(e, 'https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a', canvasBox)}>
                                                             <img
                                                                 src="https://my-garden.gardena.com/assets/elements/png/haus_grau.png?v=20220628-2ec948a"
                                                                 className="icons"/><span
@@ -1241,7 +1260,7 @@ function Plotter() {
                                         alt="Plants" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Plants</span></span>
                                 <div
-                                    className={`subgroup-wrapper level-1 ${levelOnehoverIndex.includes('Plants') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper level-1 ${levelOneHoverIndex.includes('Plants') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
                                             data-original-name="Trees">
@@ -2469,7 +2488,7 @@ function Plotter() {
                                         alt="Furniture + Leisure" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Furniture + Leisure</span></span>
                                 <div
-                                    className={`subgroup-wrapper level-1 ${levelOnehoverIndex.includes('Furniture  Leisure') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper level-1 ${levelOneHoverIndex.includes('Furniture  Leisure') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li className="has-subgroup only-objects level-2 first gardenplanner-element scrollable-menu"
                                             data-original-name="Leisure">
@@ -3518,7 +3537,7 @@ function Plotter() {
                                         alt="Ponds and pools" className="icons"/><span
                                     className="text-turquoise d-block mx-auto small">Ponds and pools</span></span>
                                 <div
-                                    className={`subgroup-wrapper only-objects level-1 ${levelOnehoverIndex.includes('Ponds and pools') ? "visible" : ""}`}>
+                                    className={`subgroup-wrapper only-objects level-1 ${levelOneHoverIndex.includes('Ponds and pools') ? "visible" : ""}`}>
                                     <ul className="subgroup level-1">
                                         <li data-bs-placement="right" data-bs-html="true"
                                             data-bs-original-title="Fountain"
@@ -3670,8 +3689,14 @@ function Plotter() {
                     </div>
                 </div>
             </div>
-            <div className="column right" style={{marginLeft: '20px', backgroundColor: "#f3f1f1"}}>
-                <canvas id="garden"></canvas>
+            <div className="column right" style={{backgroundColor: "#f3f1f1"}}>
+                <div id="canvas-container">
+                    <canvas id="garden"></canvas>
+                </div>
+                <div id="zoom-wrapper">
+                    <button id="zoom-in-button" className="scale-buttons" data-magnification-factor="0.025">+</button>
+                    <button id="zoom-out-button" className="scale-buttons" data-magnification-factor="-0.025">-</button>
+                </div>
             </div>
         </div>
     )

@@ -839,3 +839,37 @@ body.mobile-os-android #toolbar-gardenplanner ul.object-menu {
 .mobile-os-android #toolbar-gardenplanner .subgroup.level-2 {
     padding-bottom: 65px
 }
+
+
+#canvas_container {
+    position: absolute;
+    display: block;
+}
+
+#zoom-wrapper {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+}
+
+#zoom-wrapper #zoom-in-button {
+    margin-right: 24px;
+}
+
+#zoom-wrapper #zoom-out-button {
+    margin-left: 24px;
+}
+
+.scale-buttons {
+    font-size: 30px;
+    color: #00ddf0;
+    background-color: #fff;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 0;
+    width: 40px;
+}
