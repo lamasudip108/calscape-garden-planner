@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, {useState, useEffect,useRef} from "react";
 import {fabric} from 'fabric';
 
 function Plotter() {
@@ -23,6 +23,15 @@ function Plotter() {
         setLevelTwoHoverIndex([])
     };
 
+    // useEffect(() => {
+    //     setCanvasBox(initCanvas());
+    // }, [fabric]);
+    //
+    // const initCanvas = () => (
+    //     new fabric.Canvas(canvasEl.current, {
+    //         selection: false, hoverCursor: 'pointer'
+    //     })
+    // );
     useEffect(() => {
         let canvas = new fabric.Canvas('garden', {selection: false, hoverCursor: 'pointer'});
         let grid = 50;
@@ -3699,7 +3708,7 @@ function Plotter() {
             <div className="column right" style={{backgroundColor: "#f3f1f1"}}>
                 <div id="wrapper">
                     <div className="canvas-container">
-                        <canvas id='garden'/>
+                        <canvas id='garden' ref={canvasEl}/>
                     </div>
                 </div>
                 <div id="zoom-wrapper">
