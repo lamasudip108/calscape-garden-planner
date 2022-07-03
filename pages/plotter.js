@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {fabric} from "fabric";
 
-import Main from './components/plotter/main'
+import Main from './components/plotter/main';
+import * as htmlToImage from 'html-to-image';
+import { toPng, toJpeg, toBlob, toPixelData, toSvg } from 'html-to-image';
+import { jsPDF } from "jspdf";
 
 function Plotter() {
 
@@ -88,6 +91,16 @@ function Plotter() {
         setShowModal(false);
     }
 
+    const handleDownload = () => {
+
+        let dataUrl = canvasBox.toDataURL({
+          format: "png"
+        });
+        const pdf = new jsPDF();          
+        pdf.addImage(dataUrl, 'PNG', 0, 0);
+        pdf.save("myPlot.pdf"); 
+    }
+
     console.log("canvasBox", canvasBox);
     console.log("levelOneHoverIndex", levelOneHoverIndex, levelTwoHoverIndex);
 
@@ -110,6 +123,7 @@ function Plotter() {
                 setRectHeight={setRectHeight}
                 setShowModal={setShowModal}
                 onClose={handleCloseModal}
+                onDownload={handleDownload}
             />
 
         </>

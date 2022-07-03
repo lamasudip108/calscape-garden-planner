@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPrint, faDownload, faShare} from '@fortawesome/free-solid-svg-icons'
 
-export default function Navigation({canvasBox, addImage, setShowModal}) {
+export default function Navigation({canvasBox, addImage, setShowModal, onDownload}) {
 
     const [toggleTemplate, setToggleTemplate] = useState(false);
 
@@ -27,7 +27,7 @@ export default function Navigation({canvasBox, addImage, setShowModal}) {
                     </li>
                     <li id="delete-button" className="control control-delete" data-bs-placement="top"
                         data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Delete">
-                        <a href="#" className="btn btn-xs like-btn-gardena">
+                        <a href="#" onClick={onDownload} className="btn btn-xs like-btn-gardena">
                             <FontAwesomeIcon icon={faDownload} size={150}/>
                         </a>
                     </li>

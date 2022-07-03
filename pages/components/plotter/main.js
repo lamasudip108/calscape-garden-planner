@@ -20,7 +20,8 @@ function Main({
                   setRectHeight,
                   createRectangle,
                   setShowModal,
-                  onClose
+                  onClose,
+                  onDownload
               }) {
 
     const customStyles = {
@@ -52,6 +53,7 @@ function Main({
                 addImage={addImage}
                 canvasBox={canvasBox}
                 setShowModal={setShowModal}
+                onDownload={onDownload}
             />
             
             <div className="row">
