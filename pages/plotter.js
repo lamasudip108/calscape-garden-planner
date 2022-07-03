@@ -80,7 +80,7 @@ function Plotter() {
           };
     const createRectangle = (e) => {
         e.preventDefault();
-        console.log(rectWidth, rectHeight);
+        setClear(!clear);
         var rect = new fabric.Rect({
             left: 100,
             width: rectWidth * unitScale * 10,
