@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPrint, faDownload, faShare} from '@fortawesome/free-solid-svg-icons'
 
-export default function Navigation({canvasBox, addImage}) {
+export default function Navigation({canvasBox, addImage, setShowModal}) {
 
     const [toggleTemplate, setToggleTemplate] = useState(false);
 
@@ -42,7 +42,7 @@ export default function Navigation({canvasBox, addImage}) {
                 <ul className="nav navbar-controls pull-left navbar-controls-new-garden top-0"
                     style={{position: "absolute", right: "315px"}}>
                     <li className="control control-new-garden">
-                        <a href="#" className="like-btn-gardena btn-xs btn d-block mx-auto text-uppercase"
+                        <a onClick={() => setShowModal(true)} className="like-btn-gardena btn-xs btn d-block mx-auto text-uppercase"
                            style={{padding: "4px 12px 0", fontSize: "14px"}}>
                             New drawing </a>
                     </li>

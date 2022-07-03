@@ -8,6 +8,10 @@ function Plotter() {
     const [levelOneHoverIndex, setLevelOneHoverIndex] = useState([]);
     const [levelTwoHoverIndex, setLevelTwoHoverIndex] = useState([]);
     const [canvasBox, setCanvasBox] = useState('');
+    const [rectWidth, setRectWidth] = useState();
+    const [rectHeight, setRectHeight] = useState();
+    const [showModal, setShowModal] = useState(false);
+    const [unitScale, setunitScale] = useState(10);
 
     const levelOneHoverHandler = (e, name) => {
         setLevelOneHoverIndex((prev) => [[], name]);
@@ -63,6 +67,27 @@ function Plotter() {
         });
     };
 
+    const handleOpenModal = () => {
+            setShowModal(true);
+          };
+  
+    const handleCloseModal = () => {
+            setShowModal(false);
+          };
+    const createRectangle = (e) => {
+        e.preventDefault();
+        console.log(rectWidth, rectHeight);
+        var rect = new fabric.Rect({
+            left: 100,
+            width: rectWidth * unitScale * 10,
+            height: rectHeight * unitScale * 10,
+            fill: 'green'
+          });
+          canvasBox.add(rect);
+        canvasBox.setActiveObject(rect);
+        setShowModal(false);
+    }
+
     console.log("canvasBox", canvasBox);
     console.log("levelOneHoverIndex", levelOneHoverIndex, levelTwoHoverIndex);
 
@@ -79,6 +104,12 @@ function Plotter() {
                 levelTwoHoverHandler={levelTwoHoverHandler}
                 mouseOutHandler={mouseOutHandler}
                 addImage={addImage}
+                showModal={showModal}
+                createRectangle={createRectangle}
+                setRectWidth={setRectWidth}
+                setRectHeight={setRectHeight}
+                setShowModal={setShowModal}
+                onClose={handleCloseModal}
             />
 
         </>
