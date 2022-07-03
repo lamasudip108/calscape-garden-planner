@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faPrint, faDownload, faShare} from '@fortawesome/free-solid-svg-icons'
+import {faPrint, faDownload, faShare, faRefresh} from '@fortawesome/free-solid-svg-icons'
 
-export default function Navigation({canvasBox, addImage, setShowModal, onDownload}) {
+export default function Navigation({canvasBox, addImage, setShowModal, onDownload, clearCanvas}) {
 
     const [toggleTemplate, setToggleTemplate] = useState(false);
 
@@ -37,8 +37,20 @@ export default function Navigation({canvasBox, addImage, setShowModal, onDownloa
                             <FontAwesomeIcon icon={faShare} size={150}/>
                         </a>
                     </li>
-
+                    <li id="delete-button" className="control control-delete" data-bs-placement="top"
+                        data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Delete">
+                        <a href="#" className="btn btn-xs like-btn-gardena">
+                            <FontAwesomeIcon icon={faShare} size={150}/>
+                        </a>
+                    </li>
+                    <li id="delete-button" className="control control-delete" data-bs-placement="top"
+                        data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Reset Canvas">
+                        <a href="#" onClick={clearCanvas} className="btn btn-xs like-btn-gardena">
+                            <FontAwesomeIcon icon={faRefresh} size={150}/>
+                        </a>
+                    </li>
                 </ul>
+
                 <ul className="nav navbar-controls pull-left navbar-controls-new-garden top-0"
                     style={{position: "absolute", right: "315px"}}>
                     <li className="control control-new-garden">
@@ -46,7 +58,7 @@ export default function Navigation({canvasBox, addImage, setShowModal, onDownloa
                            style={{padding: "4px 12px 0", fontSize: "14px"}}>
                             New drawing </a>
                     </li>
-                </ul>
+                </ul>               
 
                 <ul className="pull-left nav navbar-nav navbar-load-templates navbar-load-garden-collapse top-0"
                     style={{position: "absolute", right: "170px"}}>
@@ -122,7 +134,8 @@ export default function Navigation({canvasBox, addImage, setShowModal, onDownloa
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul>               
+                
             </div>
         </div>
     )

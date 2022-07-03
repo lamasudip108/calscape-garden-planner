@@ -15,6 +15,7 @@ function Plotter() {
     const [rectHeight, setRectHeight] = useState();
     const [showModal, setShowModal] = useState(false);
     const [unitScale, setunitScale] = useState(10);
+    const [clear, setClear] = useState(false);
 
     const levelOneHoverHandler = (e, name) => {
         setLevelOneHoverIndex((prev) => [[], name]);
@@ -59,7 +60,7 @@ function Plotter() {
             canvas.dispose()
         };
 
-    }, []);
+    }, [clear]);
 
     const addImage = (e, url, canvi, scale) => {
         e.preventDefault();
@@ -92,13 +93,17 @@ function Plotter() {
     }
 
     const handleDownload = () => {
-
         let dataUrl = canvasBox.toDataURL({
           format: "png"
         });
         const pdf = new jsPDF();          
         pdf.addImage(dataUrl, 'PNG', 0, 0);
         pdf.save("myPlot.pdf"); 
+    }
+
+    const clearCanvas = () => {
+        canvasBox.clear();
+        setClear(!clear);
     }
 
     console.log("canvasBox", canvasBox);
@@ -124,6 +129,7 @@ function Plotter() {
                 setShowModal={setShowModal}
                 onClose={handleCloseModal}
                 onDownload={handleDownload}
+                clearCanvas={clearCanvas}
             />
 
         </>

@@ -21,7 +21,8 @@ function Main({
                   createRectangle,
                   setShowModal,
                   onClose,
-                  onDownload
+                  onDownload,
+                  clearCanvas
               }) {
 
     const customStyles = {
@@ -54,6 +55,7 @@ function Main({
                 canvasBox={canvasBox}
                 setShowModal={setShowModal}
                 onDownload={onDownload}
+                clearCanvas={clearCanvas}
             />
             
             <div className="row">
