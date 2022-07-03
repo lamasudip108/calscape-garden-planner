@@ -363,7 +363,7 @@ fieldset[disabled] .navbar-headline ul>li .like-btn-primary.focus {
     background-position: 0 0;
     color: #777 !important;
     background-color: #fff;
-    box-shadow: inset 7px 7px 5px #adadad, inset -7px -7px 5px #adadad
+    border: 2px dashed #adadad;
 }
 
 .navbar-headline ul>li .like-btn-default.btn-icon {

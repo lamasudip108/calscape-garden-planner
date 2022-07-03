@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="cf6d8574-63f7-4da5-b1e4-e1a4c110cf5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/plotter.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/plotter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/plotter/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/plotter/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/plotter/navigation111.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/plotter444.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/plotter555.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/plotter666.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/plotter777.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navigation.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,55 +34,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/plotter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/components/plotter/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="1303" column="131" selection-start-line="1303" selection-start-column="73" selection-end-line="1303" selection-end-column="131" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-                <element signature="e#2837#19129#0" />
-                <element signature="e#19158#116870#0" />
-                <element signature="e#21646#24115#0" />
-                <element signature="e#24168#26692#0" />
-                <element signature="e#26745#29287#0" />
-                <element signature="e#29340#31842#0" />
-                <element signature="e#31895#34405#0" />
-                <element signature="e#34458#36934#0" />
-                <element signature="e#36987#39490#0" />
-                <element signature="e#39543#42049#0" />
-                <element signature="e#42102#44668#0" />
-                <element signature="e#44721#47313#0" />
-                <element signature="e#47366#49969#0" />
-                <element signature="e#50022#52560#0" />
-                <element signature="e#52613#55166#0" />
-                <element signature="e#55219#57752#0" />
-                <element signature="e#57805#60309#0" />
-                <element signature="e#60362#62862#0" />
-                <element signature="e#62915#65433#0" />
-                <element signature="e#65486#67999#0" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/components/plotter/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/components/plotter/navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/navigation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="353" column="1" lean-forward="true" selection-start-line="353" selection-start-column="1" selection-end-line="353" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,12 +113,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/styles/globals.css" />
         <option value="$PROJECT_DIR$/pages/components/navigation.js" />
-        <option value="$PROJECT_DIR$/pages/components/plotter/main.js" />
         <option value="$PROJECT_DIR$/pages/plotter.js" />
         <option value="$PROJECT_DIR$/pages/_app.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/styles/navigation.css" />
         <option value="$PROJECT_DIR$/pages/components/plotter/navigation.js" />
+        <option value="$PROJECT_DIR$/styles/navigation.css" />
+        <option value="$PROJECT_DIR$/pages/components/plotter/main.js" />
       </list>
     </option>
   </component>
@@ -148,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,16 +230,18 @@
       <workItem from="1656665181818" duration="594000" />
       <workItem from="1656666359457" duration="400000" />
       <workItem from="1656667373954" duration="9364000" />
+      <workItem from="1656820135220" duration="150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44023000" />
+    <option name="totallyTimeSpent" value="44173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25059855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -288,16 +275,6 @@
     <entry file="file://$PROJECT_DIR$/pages/plotter444.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/plotter666.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -310,16 +287,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/plotter777.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plotter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/globals.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -345,50 +312,44 @@
     <entry file="file://$PROJECT_DIR$/pages/components/plotter/navigation111.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components/plotter/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="1303" column="131" selection-start-line="1303" selection-start-column="73" selection-end-line="1303" selection-end-column="131" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <element signature="e#2837#19129#0" />
-            <element signature="e#19158#116870#0" />
-            <element signature="e#21646#24115#0" />
-            <element signature="e#24168#26692#0" />
-            <element signature="e#26745#29287#0" />
-            <element signature="e#29340#31842#0" />
-            <element signature="e#31895#34405#0" />
-            <element signature="e#34458#36934#0" />
-            <element signature="e#36987#39490#0" />
-            <element signature="e#39543#42049#0" />
-            <element signature="e#42102#44668#0" />
-            <element signature="e#44721#47313#0" />
-            <element signature="e#47366#49969#0" />
-            <element signature="e#50022#52560#0" />
-            <element signature="e#52613#55166#0" />
-            <element signature="e#55219#57752#0" />
-            <element signature="e#57805#60309#0" />
-            <element signature="e#60362#62862#0" />
-            <element signature="e#62915#65433#0" />
-            <element signature="e#65486#67999#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/navigation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="185">
+          <caret line="353" column="1" lean-forward="true" selection-start-line="353" selection-start-column="1" selection-end-line="353" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/plotter/navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/plotter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/plotter/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
