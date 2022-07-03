@@ -1,10 +1,16 @@
 import React, {useState, useEffect} from "react";
 import {fabric} from 'fabric';
+import ReactModal from 'react-modal';
 
 function Plotter() {
 
     const [levelOnehoverIndex, setLevelOneHoverIndex] = useState([]);
     const [levelTwoHoverIndex, setLevelTwoHoverIndex] = useState([]);
+    const [rectWidth, setRectWidth] = useState();
+    const [rectHeight, setRectHeight] = useState();
+    const [showModal, setShowModal] = useState(true);
+    const [canvas, setCanvas] = useState();
+    const [unitScale, setunitScale] = useState(10);
 
     const levelOneHoverHandler = (e, name) => {
         setLevelOneHoverIndex((prev) => [[], name]);
@@ -17,8 +23,8 @@ function Plotter() {
 
     useEffect(() => {
         let canvas = new fabric.Canvas('garden', {selection: false});
-        let grid = 50;
-        let unitScale = 10;
+        setCanvas(canvas);
+        let grid = 50;        
         let canvasWidth = 100 * unitScale;
         let canvasHeight = 50 * unitScale;
 
@@ -41,10 +47,61 @@ function Plotter() {
 
     }, []);
 
+    const handleOpenModal = () => {
+            setShowModal(true);
+          };
+  
+    const handleCloseModal = () => {
+            setShowModal(false);
+          };
+    const customStyles = {
+      content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+        zIndex: 1,
+        position: "absolute"
+      },
+      overlay: {
+        backgroundColor: '#000 !important',
+        opacity: 0.8
+      }
+    }
+    const createRectangle = (e) => {
+        e.preventDefault();
+        console.log(rectWidth, rectHeight);
+        var rect = new fabric.Rect({
+            left: 100,
+            width: rectWidth * unitScale * 10,
+            height: rectHeight * unitScale * 10,
+            fill: 'green'
+          });
+          canvas.add(rect);
+        canvas.setActiveObject(rect);
+        setShowModal(false);
+    }
     console.log("levelOnehoverIndex", levelOnehoverIndex, levelTwoHoverIndex);
 
     return (
         <div className="row">
+            <ReactModal 
+               isOpen={showModal}
+               contentLabel="Select Plot size (m)"
+               style={customStyles}
+            >
+              <form>
+              <div>
+                    <label>Select plot size</label>
+                </div>
+                  <input name="width" placeholder="enter width" onChange={(e) => setRectWidth(e.target.value)}/>
+                  <input name="width" style={{"marginLeft": 10}} placeholder="enter height" onChange={(e) => setRectHeight(e.target.value)}/>
+                  <br></br>
+                  <button style={{"marginLeft": 10, "marginTop": 30}} onClick={(e) => createRectangle(e)}>Create</button>
+                </form>
+            </ReactModal>
             <div className="column left" style={{backgroundColor: "#fff;"}}>
                 <div id="toolbar-gardenplanner">
                     <div id="object-menu-full" className="toolbar-gardenplanner-menu">
