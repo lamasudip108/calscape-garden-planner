@@ -1,0 +1,443 @@
+.navbar-controls-toolbar.navbar-controls-toolbar .control,
+.navbar-controls-share-garden.navbar-controls-toolbar .control {
+    margin: 0 7px
+}
+
+.navbar-controls-toolbar.navbar-controls-toolbar .btn,
+.navbar-controls-share-garden.navbar-controls-toolbar .btn {
+    border-color: #878787;
+    background-color: #878787
+}
+
+.navbar-controls-toolbar .control,
+.navbar-controls-share-garden .control {
+    display: list-item;
+    float: left
+}
+
+.navbar-controls-toolbar .control .btn,
+.navbar-controls-share-garden .control .btn {
+    display: block;
+    padding: 2px 9px 0;
+    font-weight: bold;
+    letter-spacing: .5px;
+    height: 27px
+}
+
+.navbar-controls-toolbar .control .btn .fa,
+.navbar-controls-share-garden .control .btn .fa {
+    font-size: 20px;
+    text-align: left;
+    color: #fff
+}
+
+.navbar-controls-toolbar .control .btn .fa.copyicon,
+.navbar-controls-share-garden .control .btn .fa.copyicon {
+    margin: 3px 2px 0 2px;
+    font-size: 16px
+}
+
+.navbar-controls-toolbar .control .btn .fa.copyicon:before,
+.navbar-controls-share-garden .control .btn .fa.copyicon:before {
+    content: "\f1e0"
+}
+
+.navbar-headline ul>li {
+    float: left;
+    position: relative
+}
+
+.navbar-headline ul>li>a {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: block
+}
+
+.navbar-headline ul>li .like-btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    font-weight: bold
+}
+
+.navbar-headline ul>li .like-btn-default+.navbar-button-arrow {
+    float: right;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 10px solid #fff
+}
+
+.navbar-headline ul>li .like-btn-default:focus,
+.navbar-headline ul>li .like-btn-default.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c
+}
+
+.navbar-headline ul>li .like-btn-default:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default.focus+.navbar-button-arrow {
+    border-left: 10px solid #e6e6e6
+}
+
+.navbar-headline ul>li .like-btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad
+}
+
+.navbar-headline ul>li .like-btn-default:hover+.navbar-button-arrow {
+    border-left: 10px solid #e6e6e6
+}
+
+.navbar-headline ul>li .like-btn-default:active,
+.navbar-headline ul>li .like-btn-default.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad
+}
+
+.navbar-headline ul>li .like-btn-default:active+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default.active+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default+.navbar-button-arrow {
+    border-left: 10px solid #e6e6e6
+}
+
+.navbar-headline ul>li .like-btn-default:active:hover,
+.navbar-headline ul>li .like-btn-default:active:focus,
+.navbar-headline ul>li .like-btn-default:active.focus,
+.navbar-headline ul>li .like-btn-default.active:hover,
+.navbar-headline ul>li .like-btn-default.active:focus,
+.navbar-headline ul>li .like-btn-default.active.focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default:hover,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default:focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default.focus {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c
+}
+
+.navbar-headline ul>li .like-btn-default:active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default:active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default:active.focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default.active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default.active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-default.active.focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default:hover+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default:focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default.focus+.navbar-button-arrow {
+    border-left: 10px solid #d4d4d4
+}
+
+.navbar-headline ul>li .like-btn-default:active,
+.navbar-headline ul>li .like-btn-default.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-default {
+    background-image: none
+}
+
+.navbar-headline ul>li .like-btn-default.disabled:hover,
+.navbar-headline ul>li .like-btn-default.disabled:focus,
+.navbar-headline ul>li .like-btn-default.disabled.focus,
+.navbar-headline ul>li .like-btn-default[disabled]:hover,
+.navbar-headline ul>li .like-btn-default[disabled]:focus,
+.navbar-headline ul>li .like-btn-default[disabled].focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-default:hover,
+fieldset[disabled] .navbar-headline ul>li .like-btn-default:focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-default.focus {
+    background-color: #fff;
+    border-color: #ccc
+}
+
+.navbar-headline ul>li .like-btn-default .badge {
+    color: #fff;
+    background-color: #333
+}
+
+.navbar-headline ul>li .like-btn-gardena {
+    color: #fff;
+    background-color: #f15922;
+    border-color: #eb490f;
+    font-weight: bold
+}
+
+.navbar-headline ul>li .like-btn-gardena+.navbar-button-arrow {
+    float: right;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 10px solid #f15922
+}
+
+.navbar-headline ul>li .like-btn-gardena:focus,
+.navbar-headline ul>li .like-btn-gardena.focus {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #732407
+}
+
+.navbar-headline ul>li .like-btn-gardena:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena.focus+.navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+.navbar-headline ul>li .like-btn-gardena:hover {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #b1370b
+}
+
+.navbar-headline ul>li .like-btn-gardena:hover+.navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+.navbar-headline ul>li .like-btn-gardena:active,
+.navbar-headline ul>li .like-btn-gardena.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena {
+    color: #fff;
+    background-color: #d3420d;
+    border-color: #b1370b
+}
+
+.navbar-headline ul>li .like-btn-gardena:active+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena.active+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena+.navbar-button-arrow {
+    border-left: 10px solid #d3420d
+}
+
+.navbar-headline ul>li .like-btn-gardena:active:hover,
+.navbar-headline ul>li .like-btn-gardena:active:focus,
+.navbar-headline ul>li .like-btn-gardena:active.focus,
+.navbar-headline ul>li .like-btn-gardena.active:hover,
+.navbar-headline ul>li .like-btn-gardena.active:focus,
+.navbar-headline ul>li .like-btn-gardena.active.focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena:hover,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena:focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena.focus {
+    color: #fff;
+    background-color: #b1370b;
+    border-color: #732407
+}
+
+.navbar-headline ul>li .like-btn-gardena:active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena:active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena:active.focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena.active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena.active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-gardena.active.focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena:hover+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena:focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena.focus+.navbar-button-arrow {
+    border-left: 10px solid #b1370b
+}
+
+.navbar-headline ul>li .like-btn-gardena:active,
+.navbar-headline ul>li .like-btn-gardena.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-gardena {
+    background-image: none
+}
+
+.navbar-headline ul>li .like-btn-gardena.disabled:hover,
+.navbar-headline ul>li .like-btn-gardena.disabled:focus,
+.navbar-headline ul>li .like-btn-gardena.disabled.focus,
+.navbar-headline ul>li .like-btn-gardena[disabled]:hover,
+.navbar-headline ul>li .like-btn-gardena[disabled]:focus,
+.navbar-headline ul>li .like-btn-gardena[disabled].focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-gardena:hover,
+fieldset[disabled] .navbar-headline ul>li .like-btn-gardena:focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-gardena.focus {
+    background-color: #f15922;
+    border-color: #eb490f
+}
+
+.navbar-headline ul>li .like-btn-gardena .badge {
+    color: #f15922;
+    background-color: #fff
+}
+
+.navbar-headline ul>li .like-btn-primary {
+    color: #fff;
+    background-color: #5a5a5a;
+    border-color: #4d4d4d;
+    font-weight: bold
+}
+
+.navbar-headline ul>li .like-btn-primary+.navbar-button-arrow {
+    float: right;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 10px solid #5a5a5a
+}
+
+.navbar-headline ul>li .like-btn-primary:focus,
+.navbar-headline ul>li .like-btn-primary.focus {
+    color: #fff;
+    background-color: #414141;
+    border-color: #0e0e0e
+}
+
+.navbar-headline ul>li .like-btn-primary:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary.focus+.navbar-button-arrow {
+    border-left: 10px solid #414141
+}
+
+.navbar-headline ul>li .like-btn-primary:hover {
+    color: #fff;
+    background-color: #414141;
+    border-color: #2f2f2f
+}
+
+.navbar-headline ul>li .like-btn-primary:hover+.navbar-button-arrow {
+    border-left: 10px solid #414141
+}
+
+.navbar-headline ul>li .like-btn-primary:active,
+.navbar-headline ul>li .like-btn-primary.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary {
+    color: #fff;
+    background-color: #414141;
+    border-color: #2f2f2f
+}
+
+.navbar-headline ul>li .like-btn-primary:active+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary.active+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary+.navbar-button-arrow {
+    border-left: 10px solid #414141
+}
+
+.navbar-headline ul>li .like-btn-primary:active:hover,
+.navbar-headline ul>li .like-btn-primary:active:focus,
+.navbar-headline ul>li .like-btn-primary:active.focus,
+.navbar-headline ul>li .like-btn-primary.active:hover,
+.navbar-headline ul>li .like-btn-primary.active:focus,
+.navbar-headline ul>li .like-btn-primary.active.focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary:hover,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary:focus,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary.focus {
+    color: #fff;
+    background-color: #2f2f2f;
+    border-color: #0e0e0e
+}
+
+.navbar-headline ul>li .like-btn-primary:active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary:active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary:active.focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary.active:hover+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary.active:focus+.navbar-button-arrow,
+.navbar-headline ul>li .like-btn-primary.active.focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary:hover+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary:focus+.navbar-button-arrow,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary.focus+.navbar-button-arrow {
+    border-left: 10px solid #2f2f2f
+}
+
+.navbar-headline ul>li .like-btn-primary:active,
+.navbar-headline ul>li .like-btn-primary.active,
+.open>.dropdown-toggle .navbar-headline ul>li .like-btn-primary {
+    background-image: none
+}
+
+.navbar-headline ul>li .like-btn-primary.disabled:hover,
+.navbar-headline ul>li .like-btn-primary.disabled:focus,
+.navbar-headline ul>li .like-btn-primary.disabled.focus,
+.navbar-headline ul>li .like-btn-primary[disabled]:hover,
+.navbar-headline ul>li .like-btn-primary[disabled]:focus,
+.navbar-headline ul>li .like-btn-primary[disabled].focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-primary:hover,
+fieldset[disabled] .navbar-headline ul>li .like-btn-primary:focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-primary.focus {
+    background-color: #5a5a5a;
+    border-color: #4d4d4d
+}
+
+.navbar-headline ul>li .like-btn-primary .badge {
+    color: #5a5a5a;
+    background-color: #fff
+}
+
+.navbar-headline ul>li .like-btn-default {
+    color: #333 !important
+}
+
+.navbar-headline ul>li .like-btn-default:hover,
+.navbar-headline ul>li .like-btn-default:active,
+.navbar-headline ul>li .like-btn-default:focus {
+    background-position: 0 0;
+    color: #777 !important;
+    background-color: #fff;
+    box-shadow: inset 7px 7px 5px #adadad, inset -7px -7px 5px #adadad
+}
+
+.navbar-headline ul>li .like-btn-default.btn-icon {
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.navbar-headline ul>li .like-btn-default.btn-icon.btn-xs {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.navbar-headline ul>li .like-btn-default.btn-icon>.fa-2x {
+    font-size: 1.5em;
+    color: #5a5a5a
+}
+
+.navbar-headline ul>li .like-btn-gardena,
+.navbar-headline ul>li .like-btn-gardena:hover,
+.navbar-headline ul>li .like-btn-gardena:active,
+.navbar-headline ul>li .like-btn-gardena:focus {
+    background-position: 0 0;
+    color: #fff !important
+}
+
+.navbar-headline ul>li .like-btn-link {
+    color: #f15922;
+    font-weight: normal;
+    border-radius: 0
+}
+
+.navbar-headline ul>li .like-btn-link,
+.navbar-headline ul>li .like-btn-link:active,
+.navbar-headline ul>li .like-btn-link.active,
+.navbar-headline ul>li .like-btn-link[disabled],
+fieldset[disabled] .navbar-headline ul>li .like-btn-link {
+    background-color: transparent
+}
+
+.navbar-headline ul>li .like-btn-link,
+.navbar-headline ul>li .like-btn-link:hover,
+.navbar-headline ul>li .like-btn-link:focus,
+.navbar-headline ul>li .like-btn-link:active {
+    border-color: transparent
+}
+
+.navbar-headline ul>li .like-btn-link:hover,
+.navbar-headline ul>li .like-btn-link:focus {
+    color: #bb3a0c;
+    text-decoration: underline;
+    background-color: transparent
+}
+
+.navbar-headline ul>li .like-btn-link[disabled]:hover,
+.navbar-headline ul>li .like-btn-link[disabled]:focus,
+fieldset[disabled] .navbar-headline ul>li .like-btn-link:hover,
+fieldset[disabled] .navbar-headline ul>li .like-btn-link:focus {
+    color: #777;
+    text-decoration: none
+}
+
+.navbar-headline ul>li .btn-xs {
+    padding: 1px 5px;
+    font-size: .75rem;
+    border-radius: 4px;
+    border-radius: 8px
+}
+
+.navbar-headline .navbar-links>li>a {
+    background: 0 none !important
+}
+
+.navbar-headline ul>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block
+}
