@@ -38,12 +38,6 @@ export default function Navigation({canvasBox, addImage, setShowModal, onDownloa
                         </a>
                     </li>
                     <li id="delete-button" className="control control-delete" data-bs-placement="top"
-                        data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Delete">
-                        <a href="#" className="btn btn-xs like-btn-gardena">
-                            <FontAwesomeIcon icon={faShare} size={150}/>
-                        </a>
-                    </li>
-                    <li id="delete-button" className="control control-delete" data-bs-placement="top"
                         data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Reset Canvas">
                         <a href="#" onClick={clearCanvas} className="btn btn-xs like-btn-gardena">
                             <FontAwesomeIcon icon={faRefresh} size={150}/>
