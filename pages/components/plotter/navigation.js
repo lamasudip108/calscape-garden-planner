@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPrint, faDownload, faShare} from '@fortawesome/free-solid-svg-icons'
 
-export default function Navigation() {
+export default function Navigation({canvasBox, addImage}) {
 
     const [toggleTemplate, setToggleTemplate] = useState(false);
 
@@ -78,8 +78,11 @@ export default function Navigation() {
                                 data-bs-toggle="tooltip" data-bs-html="true">
                                 <a href="#"
                                    className="like-btn-default load-garden"
-                                   data-load-template="0"> <span
-                                    className="text-turquoise center-block version-title">Modern terrace</span>
+                                   data-load-template="0"
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_0.jpg', canvasBox, 0.75)}>
+                                    >
+                                    <span
+                                        className="text-turquoise center-block version-title">Modern terrace</span>
                                     <div className="img-wrapper">
                                         <img className="img-fluid"
                                              src="https://my-garden.gardena.com/data/templates/template_0.jpg"/>
@@ -90,8 +93,11 @@ export default function Navigation() {
                                 data-bs-toggle="tooltip" data-bs-html="true">
                                 <a href="#"
                                    className="like-btn-default load-garden"
-                                   data-load-template="1"> <span
-                                    className="text-turquoise center-block version-title">Cosy suburban house</span>
+                                   data-load-template="1"
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_1.jpg', canvasBox, 0.75)}>
+                                    >
+                                    <span
+                                        className="text-turquoise center-block version-title">Cosy suburban house</span>
                                     <div className="img-wrapper">
                                         <img className="img-fluid"
                                              src="https://my-garden.gardena.com/data/templates/template_1.jpg"/>
@@ -103,8 +109,11 @@ export default function Navigation() {
                                 data-bs-toggle="tooltip" data-bs-html="true">
                                 <a href="#"
                                    className="like-btn-default load-garden"
-                                   data-load-template="2"> <span
-                                    className="text-turquoise center-block version-title">Country property</span>
+                                   data-load-template="2"
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_2.jpg', canvasBox, 0.75)}>
+                                    >
+                                    <span
+                                        className="text-turquoise center-block version-title">Country property</span>
                                     <div className="img-wrapper">
                                         <img className="img-fluid"
                                              src="https://my-garden.gardena.com/data/templates/template_2.jpg"/>
