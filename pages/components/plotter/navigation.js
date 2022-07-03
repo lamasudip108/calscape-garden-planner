@@ -79,8 +79,8 @@ export default function Navigation({canvasBox, addImage}) {
                                 <a href="#"
                                    className="like-btn-default load-garden"
                                    data-load-template="0"
-                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_0.jpg', canvasBox, 0.75)}>
-                                    >
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_0.jpg', canvasBox, 0.75)}
+                                >
                                     <span
                                         className="text-turquoise center-block version-title">Modern terrace</span>
                                     <div className="img-wrapper">
@@ -94,8 +94,8 @@ export default function Navigation({canvasBox, addImage}) {
                                 <a href="#"
                                    className="like-btn-default load-garden"
                                    data-load-template="1"
-                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_1.jpg', canvasBox, 0.75)}>
-                                    >
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_1.jpg', canvasBox, 0.75)}
+                                >
                                     <span
                                         className="text-turquoise center-block version-title">Cosy suburban house</span>
                                     <div className="img-wrapper">
@@ -110,8 +110,8 @@ export default function Navigation({canvasBox, addImage}) {
                                 <a href="#"
                                    className="like-btn-default load-garden"
                                    data-load-template="2"
-                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_2.jpg', canvasBox, 0.75)}>
-                                    >
+                                   onClick={e => addImage(e, 'https://my-garden.gardena.com/data/templates/template_2.jpg', canvasBox, 0.75)}
+                                >
                                     <span
                                         className="text-turquoise center-block version-title">Country property</span>
                                     <div className="img-wrapper">
