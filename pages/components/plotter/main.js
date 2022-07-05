@@ -2,6 +2,7 @@ import React from "react";
 
 import Navigation from './navigation'
 import Zoom from './zoom'
+import ReactModal from 'react-modal';
 
 function Main({
                   levelOneHoverIndex,
@@ -13,18 +14,78 @@ function Main({
                   levelOneHoverHandler,
                   levelTwoHoverHandler,
                   mouseOutHandler,
-                  addImage
-
+                  addImage,
+                  showModal,
+                  setRectWidth,
+                  setRectHeight,
+                  createRectangle,
+                  setShowModal,
+                  onClose,
+                  onDownload,
+                  clearCanvas
               }) {
+
+    const customStyles = {
+        overlay: {
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          zIndex: 1100,
+          backgroundColor: 'rgba(0, 0, 0, 0.75)'
+        },
+      content: {
+        top: '30%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+        zIndex: 1,
+        width: '500px',
+        position: "absolute"
+      }
+    }
 
     return (
         <>
             <Navigation
                 addImage={addImage}
                 canvasBox={canvasBox}
+                setShowModal={setShowModal}
+                onDownload={onDownload}
+                clearCanvas={clearCanvas}
             />
-
+            
             <div className="row">
+                <ReactModal 
+                   isOpen={showModal}
+                   contentLabel="Select Plot size (m)"
+                   style={customStyles}
+                >
+                  <form className="form-inline row">
+                    <h3>Select plot size (in meters)</h3>
+                    <hr></hr>
+                    <div class="col-sm-6">
+                        <div class="input-group-prepend">
+                          <input className="form-control" name="width" placeholder="enter width" onChange={(e) => setRectWidth(e.target.value)}/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group-prepend">
+                          <input className="form-control" name="height" placeholder="enter height" onChange={(e) => setRectHeight(e.target.value)}/>
+                          </div>
+                    </div>
+                    <div class="col-sm-2">
+                          <button className="btn btn-primary mx-1 mt-3" onClick={(e) => createRectangle(e)}>Create</button>
+                    </div>
+                     <div class="col-sm-2">
+                          <button className="btn btn-danger mx-1 mt-3" onClick={(e) => onClose()}>Close</button>
+                    </div>
+                    </form>
+                </ReactModal>
+
                 <div className="column left" style={{backgroundColor: "#fff"}}>
                     <div id="toolbar-gardenplanner">
                         <div id="object-menu-full" className="toolbar-gardenplanner-menu" onMouseLeave={e => {

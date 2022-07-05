@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faPrint, faDownload, faShare} from '@fortawesome/free-solid-svg-icons'
+import {faPrint, faDownload, faShare, faRefresh} from '@fortawesome/free-solid-svg-icons'
 
-export default function Navigation({canvasBox, addImage}) {
+export default function Navigation({canvasBox, addImage, setShowModal, onDownload, clearCanvas}) {
 
     const [toggleTemplate, setToggleTemplate] = useState(false);
 
@@ -27,7 +27,7 @@ export default function Navigation({canvasBox, addImage}) {
                     </li>
                     <li id="delete-button" className="control control-delete" data-bs-placement="top"
                         data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Delete">
-                        <a href="#" className="btn btn-xs like-btn-gardena">
+                        <a href="#" onClick={onDownload} className="btn btn-xs like-btn-gardena">
                             <FontAwesomeIcon icon={faDownload} size={150}/>
                         </a>
                     </li>
@@ -37,16 +37,22 @@ export default function Navigation({canvasBox, addImage}) {
                             <FontAwesomeIcon icon={faShare} size={150}/>
                         </a>
                     </li>
-
+                    <li id="delete-button" className="control control-delete" data-bs-placement="top"
+                        data-bs-toggle="tooltip" data-bs-html="true" data-bs-original-title="Reset Canvas">
+                        <a href="#" onClick={clearCanvas} className="btn btn-xs like-btn-gardena">
+                            <FontAwesomeIcon icon={faRefresh} size={150}/>
+                        </a>
+                    </li>
                 </ul>
+
                 <ul className="nav navbar-controls pull-left navbar-controls-new-garden top-0"
                     style={{position: "absolute", right: "315px"}}>
                     <li className="control control-new-garden">
-                        <a href="#" className="like-btn-gardena btn-xs btn d-block mx-auto text-uppercase"
+                        <a onClick={() => setShowModal(true)} className="like-btn-gardena btn-xs btn d-block mx-auto text-uppercase"
                            style={{padding: "4px 12px 0", fontSize: "14px"}}>
                             New drawing </a>
                     </li>
-                </ul>
+                </ul>               
 
                 <ul className="pull-left nav navbar-nav navbar-load-templates navbar-load-garden-collapse top-0"
                     style={{position: "absolute", right: "170px"}}>
@@ -122,7 +128,8 @@ export default function Navigation({canvasBox, addImage}) {
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul>               
+                
             </div>
         </div>
     )
