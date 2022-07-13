@@ -11,6 +11,9 @@ import {
 import L from "leaflet";
 import { DivIcon } from "leaflet";
 import "leaflet/dist/leaflet.css";
+// import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'; // Re-uses images from ~leaflet package
+// import * as L from 'leaflet';
+// import 'leaflet-defaulticon-compatibility';
 
 const defaultCenterPosition = [27.71, 85.32];
 
@@ -40,7 +43,6 @@ function DraggableMarker({ defaultPosition, onDragEnd, shouldLocate }) {
 
   const map = useMapEvents({
     locationfound(e) {
-      localStorage.setItem("currentLocation", JSON.stringify(e.latlng));
       setPosition(e.latlng);
       map.flyTo(e.latlng, map.getZoom());
       onDragEnd?.(e.latlng);
@@ -66,20 +68,6 @@ function DraggableMarker({ defaultPosition, onDragEnd, shouldLocate }) {
     }),
     []
   );
-
-  useEffect(() => {
-    if (shouldLocate) {
-      const currentLocation = localStorage.getItem("currentLocation");
-      if (currentLocation) {
-        const currentLocationObj = JSON.parse(currentLocation);
-        setPosition(currentLocationObj);
-        map.flyTo(currentLocationObj, map.getZoom());
-        onDragEnd?.(currentLocationObj);
-      } else {
-        map.locate({ enableHighAccuracy: true });
-      }
-    }
-  }, [shouldLocate]);
 
   return Boolean(position) ? (
     <Marker
