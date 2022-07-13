@@ -10,6 +10,7 @@ import {
 } from "react-leaflet";
 import L from "leaflet";
 import { DivIcon } from "leaflet";
+import "leaflet/dist/leaflet.css";
 
 const defaultCenterPosition = [27.71, 85.32];
 
