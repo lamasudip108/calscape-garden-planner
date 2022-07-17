@@ -43,12 +43,10 @@ function DraggableMarker({ position, setPosition, onDragEnd }) {
       setPosition(defaultPosition || defaultCenterPosition);
     },
     click(e) {
-      console.log(e.latlng, "latlan");
       setPosition(e.latlng);
       onDragEnd?.(e.latlng);
     },
   });
-  console.log(position, "position inside draggable marker");
 
   return Boolean(position) ? (
     <Marker
@@ -64,7 +62,6 @@ function DraggableMarker({ position, setPosition, onDragEnd }) {
 function LeafletMap({ onMarkerDragEnd }) {
   const [map, setMap] = useState(null);
   const [position, setPosition] = useState(defaultCenterPosition);
-  console.log(position, "position in leafletmap");
 
   // Auto adjust size of map tile on resize of map container
 

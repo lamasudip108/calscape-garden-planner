@@ -26,7 +26,7 @@ function Map() {
       .finally(() => {
         if (streetAddress) {
           setAddress(streetAddress);
-          setCity(address?.city);
+          setCity(streetAddress?.city);
         }
         setLocation(JSON.stringify(latLan));
       });
