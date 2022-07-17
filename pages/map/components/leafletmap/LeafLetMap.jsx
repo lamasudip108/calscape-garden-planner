@@ -2,18 +2,12 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { OpenStreetMapProvider, GeoSearchControl } from "leaflet-geosearch";
 import {
   Marker,
-  Popup,
   MapContainer,
   TileLayer,
   useMap,
   useMapEvents,
 } from "react-leaflet";
-import L from "leaflet";
-import { DivIcon } from "leaflet";
 import "leaflet/dist/leaflet.css";
-// import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'; // Re-uses images from ~leaflet package
-// import * as L from 'leaflet';
-// import 'leaflet-defaulticon-compatibility';
 
 const defaultCenterPosition = [27.71, 85.32];
 
@@ -36,9 +30,7 @@ const Search = (props) => {
 };
 
 //Marker component
-function DraggableMarker({ defaultPosition, onDragEnd, shouldLocate }) {
-  const [position, setPosition] = useState(null);
-
+function DraggableMarker({ position, setPosition, onDragEnd }) {
   const markerRef = useRef(null);
 
   const map = useMapEvents({
@@ -51,54 +43,34 @@ function DraggableMarker({ defaultPosition, onDragEnd, shouldLocate }) {
       setPosition(defaultPosition || defaultCenterPosition);
     },
     click(e) {
+      console.log(e.latlng, "latlan");
       setPosition(e.latlng);
       onDragEnd?.(e.latlng);
     },
   });
-
-  const eventHandlers = useMemo(
-    () => ({
-      dragend() {
-        const marker = markerRef.current;
-        if (marker != null) {
-          setPosition(marker.getLatLng());
-          onDragEnd?.(marker.getLatLng());
-        }
-      },
-    }),
-    []
-  );
+  console.log(position, "position inside draggable marker");
 
   return Boolean(position) ? (
     <Marker
       draggable={true}
-      eventHandlers={eventHandlers}
+      // eventHandlers={eventHandlers}
       position={position}
       ref={markerRef}
-    >
-      <Popup minWidth={90}>
-        <span>Drag the marker to the exact location </span>
-      </Popup>
-    </Marker>
+    ></Marker>
   ) : null;
 }
 
 //Map component
-function LeafletMap({ mapState, markers, onMarkerDragEnd, shouldLocate }) {
+function LeafletMap({ onMarkerDragEnd }) {
   const [map, setMap] = useState(null);
+  const [position, setPosition] = useState(defaultCenterPosition);
+  console.log(position, "position in leafletmap");
+
   // Auto adjust size of map tile on resize of map container
-  useEffect(() => {
-    if (map && markers && markers.length > 0) {
-      const cleanMarkers = markers?.map((marker) => marker?.position);
-      var bounds = new L.LatLngBounds(cleanMarkers);
-      map.fitBounds(bounds, { maxZoom: 10 });
-    }
-    map?.invalidateSize();
-  }, [JSON.stringify(mapState), map]);
 
   return (
     <MapContainer
-      center={defaultCenterPosition}
+      center={position}
       zoom={12}
       minZoom={0}
       maxZoom={22}
@@ -110,15 +82,11 @@ function LeafletMap({ mapState, markers, onMarkerDragEnd, shouldLocate }) {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
       <Search provider={new OpenStreetMapProvider()} />
-      {markers?.map((each, idx) => (
-        <Marker key={`marker-${idx}`} position={each.position}>
-          <Popup>{each.popup}</Popup>
-        </Marker>
-      ))}
       {onMarkerDragEnd ? (
         <DraggableMarker
+          position={position}
+          setPosition={setPosition}
           onDragEnd={onMarkerDragEnd}
-          shouldLocate={shouldLocate}
         />
       ) : null}
     </MapContainer>

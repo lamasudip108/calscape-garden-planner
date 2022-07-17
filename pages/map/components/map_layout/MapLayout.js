@@ -1,11 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Rnd } from "react-rnd";
-import dynamic from 'next/dynamic'  
+import React, { useState, useRef } from "react";
+import dynamic from "next/dynamic";
 // import LeafLetMap from "../leafletmap/LeafLetMap";
 
-const renderBottomHandle = () => <div className="bottom-handle"></div>;
 
-function MapLayout({ children, onMarkerDragEnd, markers, sx, large }) {
+function MapLayout({ onMarkerDragEnd }) {
   const mapWrapperRef = useRef();
 
   const mapMinHeight = 300;
@@ -16,29 +14,6 @@ function MapLayout({ children, onMarkerDragEnd, markers, sx, large }) {
   });
   const { width, height } = mapState;
 
-  const handleResizeStop = (e, direction, ref, delta, position) => {
-    setMapState({
-      width: ref.offsetWidth,
-      height: ref.offsetHeight,
-    });
-  };
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (mapWrapperRef?.current) {
-        setMapState({
-          ...mapState,
-          width: mapWrapperRef.current.offsetWidth,
-        });
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   const LeafLetMap = dynamic(
     () => import("../leafletmap/LeafLetMap"), // replace '@components/map' with your component's location
     {
@@ -46,14 +21,10 @@ function MapLayout({ children, onMarkerDragEnd, markers, sx, large }) {
       ssr: false, // This line is important. It's what prevents server-side render
     }
   );
-  // return <LeafLetMap />;
 
   return (
-    <div id="map-layout__wrapper">
-      {/* {large ? <h6>Search Location</h6> : null} */}
-
+    <div>
       <div
-        id="map-layout__map-wrapper"
         ref={mapWrapperRef}
         style={{
           height: height,
@@ -61,39 +32,8 @@ function MapLayout({ children, onMarkerDragEnd, markers, sx, large }) {
           marginBottom: "20px",
         }}
       >
-        <Rnd
-          size={{
-            width,
-            height,
-          }}
-          position={{ x: 20 }}
-          enableResizing={{
-            top: false,
-            right: false,
-            left: false,
-            bottom: !!large,
-            topLeft: false,
-            topRight: false,
-            bottomRight: false,
-          }}
-          resizeHandleComponent={{ bottom: renderBottomHandle() }}
-          onResizeStop={handleResizeStop}
-          disableDragging={true}
-          style={{
-            border: "solid 1px #ccc",
-            minHeight: `${mapMinHeight}px!important`,
-            maxHeight: `${mapMaxHeight}px!important`,
-          }}
-        >
-          <LeafLetMap
-            mapState={mapState}
-            markers={markers}
-            onMarkerDragEnd={onMarkerDragEnd}
-          />
-        </Rnd>
+        <LeafLetMap mapState={mapState} onMarkerDragEnd={onMarkerDragEnd} />
       </div>
-
-      <div>{children}</div>
     </div>
   );
 }
